@@ -1,0 +1,1337 @@
+2021/03/24 12:39:52 [emerg] 27775#0: unknown directive "loadmodule" in ./nginx_conf/conf/nginx.conf:5
+2021/03/24 12:40:04 [emerg] 27781#0: unknown directive "loadmodules" in ./nginx_conf/conf/nginx.conf:5
+2021/03/24 12:40:18 [emerg] 27787#0: dlopen() "./nginx_conf/ngx_rtmp_module.so" failed (./nginx_conf/ngx_rtmp_module.so: cannot open shared object file: No such file or directory) in ./nginx_conf/conf/nginx.conf:5
+2021/03/24 12:40:50 [notice] 27804#0: using the "epoll" event method
+2021/03/24 12:40:50 [notice] 27804#0: nginx/1.18.0
+2021/03/24 12:40:50 [notice] 27804#0: built by gcc 10.2.0 (GCC) 
+2021/03/24 12:40:50 [notice] 27804#0: OS: Linux 5.4.105-1-MANJARO
+2021/03/24 12:40:50 [notice] 27804#0: getrlimit(RLIMIT_NOFILE): 1024:524288
+2021/03/24 12:40:50 [notice] 27805#0: start worker processes
+2021/03/24 12:40:50 [notice] 27805#0: start worker process 27806
+2021/03/24 12:41:02 [error] 27806#0: *1 open() "/path/to/nginx-rtmp-module/stat.xsl" failed (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /stat.xsl HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/stat"
+2021/03/24 12:41:02 [error] 27806#0: *1 open() "/path/to/nginx-rtmp-module/test/www/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/stat"
+2021/03/24 12:41:04 [error] 27806#0: *1 open() "/path/to/nginx-rtmp-module/stat.xsl" failed (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /stat.xsl HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/stat"
+2021/03/24 12:41:05 [error] 27806#0: *1 open() "/path/to/nginx-rtmp-module/stat.xsl" failed (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /stat.xsl HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/stat"
+2021/03/24 12:41:05 [error] 27806#0: *1 open() "/path/to/nginx-rtmp-module/stat.xsl" failed (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /stat.xsl HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/stat"
+2021/03/24 12:41:46 [notice] 27805#0: signal 15 (SIGTERM) received from 27899, exiting
+2021/03/24 12:41:46 [notice] 27806#0: signal 15 (SIGTERM) received from 27899, exiting
+2021/03/24 12:41:46 [info] 27806#0: epoll_wait() failed (4: Interrupted system call)
+2021/03/24 12:41:46 [notice] 27806#0: exiting
+2021/03/24 12:41:46 [notice] 27806#0: exit
+2021/03/24 12:41:46 [notice] 27805#0: signal 17 (SIGCHLD) received from 27806
+2021/03/24 12:41:46 [notice] 27805#0: worker process 27806 exited with code 0
+2021/03/24 12:41:46 [notice] 27805#0: exit
+2021/03/24 12:41:48 [notice] 27905#0: using the "epoll" event method
+2021/03/24 12:41:48 [notice] 27905#0: nginx/1.18.0
+2021/03/24 12:41:48 [notice] 27905#0: built by gcc 10.2.0 (GCC) 
+2021/03/24 12:41:48 [notice] 27905#0: OS: Linux 5.4.105-1-MANJARO
+2021/03/24 12:41:48 [notice] 27905#0: getrlimit(RLIMIT_NOFILE): 1024:524288
+2021/03/24 12:41:48 [notice] 27906#0: start worker processes
+2021/03/24 12:41:48 [notice] 27906#0: start worker process 27907
+2021/03/24 12:42:43 [info] 27907#0: *3 client connected '127.0.0.1'
+2021/03/24 12:42:43 [info] 27907#0: *3 connect: app='myapp' args='' flashver='FMLE/3.0 (compatible; Lavf58.45' swf_url='' tc_url='rtmp://localhost:1935/myapp' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/24 12:42:43 [info] 27907#0: *3 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/24 12:42:43 [info] 27907#0: *3 publish: name='' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/24 12:42:52 [info] 27907#0: *2 client timed out (110: Unknown error) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2021/03/24 12:43:11 [info] 27907#0: *3 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/24 12:43:11 [info] 27907#0: *3 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/24 12:43:11 [info] 27907#0: *3 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/24 12:43:28 [info] 27907#0: *5 client connected '127.0.0.1'
+2021/03/24 12:43:28 [info] 27907#0: *5 connect: app='myapp' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://localhost:1935/myapp' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/24 12:43:28 [info] 27907#0: *5 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/24 12:43:28 [info] 27907#0: *5 play: name='' args='' start=-2000 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/24 12:43:37 [info] 27907#0: *6 client connected '127.0.0.1'
+2021/03/24 12:43:37 [info] 27907#0: *6 connect: app='myapp' args='' flashver='FMLE/3.0 (compatible; Lavf58.45' swf_url='' tc_url='rtmp://localhost:1935/myapp' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/24 12:43:37 [info] 27907#0: *6 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/24 12:43:37 [info] 27907#0: *6 publish: name='' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/24 12:43:54 [info] 27907#0: *4 client timed out (110: Unknown error) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2021/03/24 12:44:05 [info] 27907#0: *6 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/24 12:44:05 [info] 27907#0: *6 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/24 12:44:05 [info] 27907#0: *6 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/24 12:44:27 [info] 27907#0: *7 client connected '127.0.0.1'
+2021/03/24 12:44:27 [info] 27907#0: *7 connect: app='myapp' args='' flashver='FMLE/3.0 (compatible; Lavf58.45' swf_url='' tc_url='rtmp://localhost:1935/myapp' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/24 12:44:27 [info] 27907#0: *7 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/24 12:44:27 [info] 27907#0: *7 publish: name='' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/24 12:44:32 [info] 27907#0: *5 recv() failed (104: Unknown error), client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/24 12:44:32 [info] 27907#0: *5 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/24 12:44:32 [info] 27907#0: *5 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/24 12:44:33 [info] 27907#0: *8 client connected '127.0.0.1'
+2021/03/24 12:44:33 [info] 27907#0: *8 connect: app='myapp' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://localhost:1935/myapp' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/24 12:44:33 [info] 27907#0: *8 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/24 12:44:33 [info] 27907#0: *8 play: name='' args='' start=-2000 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/24 12:44:44 [info] 27907#0: *8 recv() failed (104: Unknown error), client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/24 12:44:44 [info] 27907#0: *8 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/24 12:44:44 [info] 27907#0: *8 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/24 12:44:44 [info] 27907#0: *9 client connected '127.0.0.1'
+2021/03/24 12:44:44 [info] 27907#0: *9 connect: app='myapp' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://localhost:1935/myapp' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/24 12:44:44 [info] 27907#0: *9 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/24 12:44:44 [info] 27907#0: *9 play: name='' args='' start=-2000 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/24 12:44:52 [info] 27907#0: *9 recv() failed (104: Unknown error), client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/24 12:44:52 [info] 27907#0: *9 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/24 12:44:52 [info] 27907#0: *9 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/24 12:44:52 [info] 27907#0: *10 client connected '127.0.0.1'
+2021/03/24 12:44:52 [info] 27907#0: *10 connect: app='myapp' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://localhost:1935/myapp' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/24 12:44:52 [info] 27907#0: *10 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/24 12:44:52 [info] 27907#0: *10 play: name='' args='' start=-2000 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/24 12:44:53 [info] 27907#0: *10 recv() failed (104: Unknown error), client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/24 12:44:53 [info] 27907#0: *10 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/24 12:44:53 [info] 27907#0: *10 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/24 12:44:53 [info] 27907#0: *11 client connected '127.0.0.1'
+2021/03/24 12:44:53 [info] 27907#0: *11 connect: app='myapp' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://localhost:1935/myapp' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/24 12:44:53 [info] 27907#0: *11 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/24 12:44:53 [info] 27907#0: *11 play: name='' args='' start=-2000 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/24 12:44:54 [info] 27907#0: *11 recv() failed (104: Unknown error), client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/24 12:44:54 [info] 27907#0: *11 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/24 12:44:54 [info] 27907#0: *11 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/24 12:44:54 [info] 27907#0: *12 client connected '127.0.0.1'
+2021/03/24 12:44:54 [info] 27907#0: *12 connect: app='myapp' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://localhost:1935/myapp' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/24 12:44:54 [info] 27907#0: *12 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/24 12:44:54 [info] 27907#0: *12 play: name='' args='' start=-2000 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/24 12:44:55 [info] 27907#0: *12 recv() failed (104: Unknown error), client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/24 12:44:55 [info] 27907#0: *12 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/24 12:44:55 [info] 27907#0: *12 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/24 12:44:55 [info] 27907#0: *13 client connected '127.0.0.1'
+2021/03/24 12:44:55 [info] 27907#0: *13 connect: app='myapp' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://localhost:1935/myapp' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/24 12:44:55 [info] 27907#0: *13 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/24 12:44:55 [info] 27907#0: *13 play: name='' args='' start=-2000 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/24 12:44:55 [info] 27907#0: *13 recv() failed (104: Unknown error), client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/24 12:44:55 [info] 27907#0: *13 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/24 12:44:55 [info] 27907#0: *13 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/24 12:44:55 [info] 27907#0: *14 client connected '127.0.0.1'
+2021/03/24 12:44:55 [info] 27907#0: *14 connect: app='myapp' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://localhost:1935/myapp' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/24 12:44:55 [info] 27907#0: *14 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/24 12:44:55 [info] 27907#0: *14 play: name='' args='' start=-2000 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/24 12:44:55 [info] 27907#0: *14 recv() failed (104: Unknown error), client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/24 12:44:55 [info] 27907#0: *14 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/24 12:44:55 [info] 27907#0: *14 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/24 12:44:55 [info] 27907#0: *15 client connected '127.0.0.1'
+2021/03/24 12:44:55 [info] 27907#0: *15 connect: app='myapp' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://localhost:1935/myapp' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/24 12:44:55 [info] 27907#0: *15 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/24 12:44:55 [info] 27907#0: *15 play: name='' args='' start=-2000 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/24 12:44:55 [info] 27907#0: *7 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/24 12:44:55 [info] 27907#0: *7 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/24 12:44:55 [info] 27907#0: *7 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/24 12:44:58 [info] 27907#0: *16 client connected '127.0.0.1'
+2021/03/24 12:44:58 [info] 27907#0: *16 connect: app='myapp' args='' flashver='FMLE/3.0 (compatible; Lavf58.45' swf_url='' tc_url='rtmp://localhost:1935/myapp' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/24 12:44:58 [info] 27907#0: *16 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/24 12:44:58 [info] 27907#0: *16 publish: name='' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/24 12:45:25 [info] 27907#0: *16 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/24 12:45:25 [info] 27907#0: *16 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/24 12:45:25 [info] 27907#0: *16 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/24 12:45:33 [info] 27907#0: *17 client connected '127.0.0.1'
+2021/03/24 12:45:33 [info] 27907#0: *17 connect: app='myapp' args='' flashver='FMLE/3.0 (compatible; Lavf58.45' swf_url='' tc_url='rtmp://localhost:1935/myapp' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/24 12:45:33 [info] 27907#0: *17 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/24 12:45:33 [info] 27907#0: *17 publish: name='' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/24 12:45:40 [info] 27907#0: *15 recv() failed (104: Unknown error), client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/24 12:45:40 [info] 27907#0: *15 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/24 12:45:40 [info] 27907#0: *15 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/24 12:45:40 [info] 27907#0: *18 client connected '127.0.0.1'
+2021/03/24 12:45:40 [info] 27907#0: *18 connect: app='myapp' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://localhost:1935/myapp' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/24 12:45:40 [info] 27907#0: *18 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/24 12:45:40 [info] 27907#0: *18 play: name='' args='' start=-2000 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/24 12:46:00 [info] 27907#0: *17 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/24 12:46:00 [info] 27907#0: *17 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/24 12:46:00 [info] 27907#0: *17 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/24 12:47:28 [info] 27907#0: *21 client connected '127.0.0.1'
+2021/03/24 12:47:28 [info] 27907#0: *21 connect: app='myapp' args='' flashver='FMLE/3.0 (compatible; Lavf58.45' swf_url='' tc_url='rtmp://localhost:1935/myapp' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/24 12:47:28 [info] 27907#0: *21 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/24 12:47:28 [info] 27907#0: *21 publish: name='' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/24 12:47:56 [info] 27907#0: *21 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/24 12:47:56 [info] 27907#0: *21 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/24 12:47:56 [info] 27907#0: *21 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/24 12:48:05 [info] 27907#0: *20 client timed out (110: Unknown error) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2021/03/24 13:24:10 [info] 27907#0: *22 client connected '192.168.0.111'
+2021/03/24 13:24:10 [info] 27907#0: *22 connect: app='myapp' args='' flashver='' swf_url='' tc_url='rtmp://192.168.0.111/myapp' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 13:24:10 [info] 27907#0: *22 createStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 13:24:10 [info] 27907#0: *22 publish: name='' args='' type=live silent=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 13:24:53 [info] 27907#0: *18 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/24 13:24:53 [info] 27907#0: *18 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/24 13:25:00 [info] 27907#0: *25 client connected '127.0.0.1'
+2021/03/24 13:25:00 [info] 27907#0: *25 connect: app='myapp' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://localhost:1935/myapp' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/24 13:25:00 [info] 27907#0: *25 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/24 13:25:00 [info] 27907#0: *25 play: name='' args='' start=-2000 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/24 13:25:16 [info] 27907#0: *24 client timed out (110: Unknown error) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2021/03/24 13:25:39 [notice] 27906#0: signal 15 (SIGTERM) received from 31878, exiting
+2021/03/24 13:25:39 [notice] 27907#0: signal 15 (SIGTERM) received from 31878, exiting
+2021/03/24 13:25:39 [info] 27907#0: epoll_wait() failed (4: Interrupted system call)
+2021/03/24 13:25:39 [notice] 27907#0: exiting
+2021/03/24 13:25:39 [notice] 27907#0: exit
+2021/03/24 13:25:39 [notice] 27906#0: signal 17 (SIGCHLD) received from 27907
+2021/03/24 13:25:39 [notice] 27906#0: worker process 27907 exited with code 0
+2021/03/24 13:25:39 [notice] 27906#0: exit
+2021/03/24 13:25:59 [notice] 31897#0: using the "epoll" event method
+2021/03/24 13:25:59 [notice] 31897#0: nginx/1.18.0
+2021/03/24 13:25:59 [notice] 31897#0: built by gcc 10.2.0 (GCC) 
+2021/03/24 13:25:59 [notice] 31897#0: OS: Linux 5.4.105-1-MANJARO
+2021/03/24 13:25:59 [notice] 31897#0: getrlimit(RLIMIT_NOFILE): 1024:524288
+2021/03/24 13:25:59 [notice] 31898#0: start worker processes
+2021/03/24 13:25:59 [notice] 31898#0: start worker process 31899
+2021/03/24 13:26:48 [error] 31899#0: *3 open() "./nginx_conf/../rtmp/www/favicon.ico" failed (2: No such file or directory), client: 192.168.0.111, server: , request: "GET /favicon.ico HTTP/1.1", host: "192.168.0.111:8080", referrer: "http://192.168.0.111:8080/stat"
+2021/03/24 13:27:02 [info] 31899#0: *2 client timed out (110: Unknown error) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2021/03/24 13:27:40 [info] 31899#0: *4 client connected '192.168.0.111'
+2021/03/24 13:27:40 [info] 31899#0: *4 connect: app='myapp' args='' flashver='' swf_url='' tc_url='rtmp://192.168.0.111/myapp' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 13:27:40 [info] 31899#0: *4 createStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 13:27:40 [info] 31899#0: *4 publish: name='' args='' type=live silent=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 13:31:18 [info] 31899#0: *4 disconnect, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 13:31:18 [info] 31899#0: *4 deleteStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 13:31:45 [info] 31899#0: *5 client connected '192.168.0.111'
+2021/03/24 13:31:45 [info] 31899#0: *5 connect: app='myapp' args='' flashver='' swf_url='' tc_url='rtmp://192.168.0.111/myapp' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 13:31:45 [info] 31899#0: *5 createStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 13:31:45 [info] 31899#0: *5 publish: name='' args='' type=live silent=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 13:33:19 [info] 31899#0: *5 disconnect, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 13:33:19 [info] 31899#0: *5 deleteStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 13:33:39 [info] 31899#0: *6 client connected '192.168.0.111'
+2021/03/24 13:33:39 [info] 31899#0: *6 connect: app='myapp' args='' flashver='' swf_url='' tc_url='rtmp://192.168.0.111/myapp' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 13:33:39 [info] 31899#0: *6 createStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 13:33:39 [info] 31899#0: *6 publish: name='' args='' type=live silent=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 13:34:03 [info] 31899#0: *6 disconnect, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 13:34:03 [info] 31899#0: *6 deleteStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 13:35:59 [notice] 31899#0: signal 15 (SIGTERM) received from 1281, exiting
+2021/03/24 13:35:59 [notice] 31898#0: signal 15 (SIGTERM) received from 1281, exiting
+2021/03/24 13:35:59 [info] 31899#0: epoll_wait() failed (4: Interrupted system call)
+2021/03/24 13:35:59 [notice] 31899#0: exiting
+2021/03/24 13:35:59 [notice] 31899#0: exit
+2021/03/24 13:35:59 [notice] 31898#0: signal 17 (SIGCHLD) received from 31899
+2021/03/24 13:35:59 [notice] 31898#0: worker process 31899 exited with code 0
+2021/03/24 13:35:59 [notice] 31898#0: exit
+2021/03/24 19:30:32 [notice] 2607#0: using the "epoll" event method
+2021/03/24 19:30:32 [notice] 2607#0: nginx/1.18.0
+2021/03/24 19:30:32 [notice] 2607#0: built by gcc 10.2.0 (GCC) 
+2021/03/24 19:30:32 [notice] 2607#0: OS: Linux 5.4.105-1-MANJARO
+2021/03/24 19:30:32 [notice] 2607#0: getrlimit(RLIMIT_NOFILE): 1024:524288
+2021/03/24 19:30:32 [notice] 2608#0: start worker processes
+2021/03/24 19:30:32 [notice] 2608#0: start worker process 2609
+2021/03/24 19:34:26 [info] 2609#0: *1 client connected '192.168.0.111'
+2021/03/24 19:34:26 [info] 2609#0: *1 connect: app='myapp' args='' flashver='' swf_url='' tc_url='rtmp://192.168.0.111/myapp' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 19:34:26 [info] 2609#0: *1 createStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 19:34:26 [info] 2609#0: *1 publish: name='' args='' type=live silent=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 19:34:48 [error] 2609#0: *2 open() "./nginx_conf/../rtmp/www/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/stat"
+2021/03/24 19:35:42 [info] 2609#0: *1 disconnect, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 19:35:42 [info] 2609#0: *1 deleteStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 19:35:48 [info] 2609#0: *3 client timed out (110: Unknown error) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2021/03/24 19:35:52 [info] 2609#0: *4 client connected '192.168.0.111'
+2021/03/24 19:35:52 [info] 2609#0: *4 connect: app='myapp' args='' flashver='' swf_url='' tc_url='rtmp://192.168.0.111/myapp' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 19:35:52 [info] 2609#0: *4 createStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 19:35:52 [info] 2609#0: *4 publish: name='' args='' type=live silent=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 19:39:11 [info] 2609#0: *4 disconnect, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 19:39:11 [info] 2609#0: *4 deleteStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 19:39:30 [info] 2609#0: *5 client connected '192.168.0.111'
+2021/03/24 19:39:30 [info] 2609#0: *5 connect: app='myapp' args='' flashver='' swf_url='' tc_url='rtmp://192.168.0.111/myapp' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 19:39:30 [info] 2609#0: *5 createStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 19:39:30 [info] 2609#0: *5 publish: name='' args='' type=live silent=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 19:40:48 [info] 2609#0: *7 client timed out (110: Unknown error) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2021/03/24 19:41:00 [info] 2609#0: *5 disconnect, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 19:41:00 [info] 2609#0: *5 deleteStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 19:43:12 [info] 2609#0: *8 client connected '192.168.0.111'
+2021/03/24 19:43:12 [info] 2609#0: *8 connect: app='myapp' args='' flashver='' swf_url='' tc_url='rtmp://192.168.0.111/myapp' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 19:43:12 [info] 2609#0: *8 createStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 19:43:12 [info] 2609#0: *8 publish: name='' args='' type=live silent=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 19:43:20 [info] 2609#0: *8 disconnect, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 19:43:20 [info] 2609#0: *8 deleteStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 19:44:50 [info] 2609#0: *9 client connected '192.168.0.111'
+2021/03/24 19:44:50 [info] 2609#0: *9 connect: app='myapp' args='' flashver='' swf_url='' tc_url='rtmp://192.168.0.111/myapp' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 19:44:50 [info] 2609#0: *9 createStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 19:44:50 [info] 2609#0: *9 publish: name='' args='' type=live silent=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 19:45:58 [info] 2609#0: *9 disconnect, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 19:45:58 [info] 2609#0: *9 deleteStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 19:46:10 [info] 2609#0: *10 client connected '192.168.0.111'
+2021/03/24 19:46:10 [info] 2609#0: *10 connect: app='myapp' args='' flashver='' swf_url='' tc_url='rtmp://192.168.0.111/myapp' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 19:46:10 [info] 2609#0: *10 createStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 19:46:10 [info] 2609#0: *10 publish: name='' args='' type=live silent=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 19:46:23 [info] 2609#0: *10 disconnect, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 19:46:23 [info] 2609#0: *10 deleteStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 20:00:21 [info] 2609#0: *11 client connected '192.168.0.111'
+2021/03/24 20:00:21 [info] 2609#0: *11 connect: app='myapp' args='' flashver='' swf_url='' tc_url='rtmp://192.168.0.111/myapp' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 20:00:21 [info] 2609#0: *11 createStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 20:00:21 [info] 2609#0: *11 publish: name='' args='' type=live silent=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 20:00:25 [info] 2609#0: *11 disconnect, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 20:00:25 [info] 2609#0: *11 deleteStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 20:01:51 [info] 2609#0: *12 client connected '192.168.0.111'
+2021/03/24 20:01:51 [info] 2609#0: *12 connect: app='myapp' args='' flashver='' swf_url='' tc_url='rtmp://192.168.0.111/myapp' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 20:01:51 [info] 2609#0: *12 createStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 20:01:51 [info] 2609#0: *12 publish: name='' args='' type=live silent=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 20:02:28 [info] 2609#0: *12 disconnect, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 20:02:28 [info] 2609#0: *12 deleteStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 20:02:44 [info] 2609#0: *13 client connected '192.168.0.111'
+2021/03/24 20:02:44 [info] 2609#0: *13 connect: app='myapp' args='' flashver='' swf_url='' tc_url='rtmp://192.168.0.111/myapp' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 20:02:44 [info] 2609#0: *13 createStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 20:02:44 [info] 2609#0: *13 publish: name='' args='' type=live silent=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 20:03:14 [info] 2609#0: *13 disconnect, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 20:03:14 [info] 2609#0: *13 deleteStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 20:05:22 [info] 2609#0: *14 client connected '192.168.0.111'
+2021/03/24 20:05:22 [info] 2609#0: *14 connect: app='myapp' args='' flashver='' swf_url='' tc_url='rtmp://192.168.0.111/myapp' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 20:05:22 [info] 2609#0: *14 createStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 20:05:22 [info] 2609#0: *14 publish: name='' args='' type=live silent=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 20:06:28 [info] 2609#0: *16 client timed out (110: Unknown error) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2021/03/24 20:06:30 [info] 2609#0: *14 disconnect, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 20:06:30 [info] 2609#0: *14 deleteStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 20:12:47 [info] 2609#0: *17 client connected '192.168.0.111'
+2021/03/24 20:12:47 [info] 2609#0: *17 connect: app='myapp' args='' flashver='' swf_url='' tc_url='rtmp://192.168.0.111/myapp' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 20:12:47 [info] 2609#0: *17 createStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 20:12:47 [info] 2609#0: *17 publish: name='' args='' type=live silent=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 20:12:50 [info] 2609#0: *17 disconnect, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 20:12:50 [info] 2609#0: *17 deleteStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 20:14:00 [info] 2609#0: *18 client connected '192.168.0.111'
+2021/03/24 20:14:00 [info] 2609#0: *18 connect: app='myapp' args='' flashver='' swf_url='' tc_url='rtmp://192.168.0.111/myapp' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 20:14:00 [info] 2609#0: *18 createStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 20:14:00 [info] 2609#0: *18 publish: name='' args='' type=live silent=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 20:14:54 [info] 2609#0: *18 disconnect, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 20:14:54 [info] 2609#0: *18 deleteStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 20:16:59 [info] 2609#0: *19 client connected '192.168.0.111'
+2021/03/24 20:16:59 [info] 2609#0: *19 connect: app='myapp' args='' flashver='' swf_url='' tc_url='rtmp://192.168.0.111/myapp' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 20:16:59 [info] 2609#0: *19 createStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 20:16:59 [info] 2609#0: *19 publish: name='' args='' type=live silent=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 20:18:24 [info] 2609#0: *19 disconnect, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 20:18:24 [info] 2609#0: *19 deleteStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 20:18:51 [info] 2609#0: *20 client connected '192.168.0.111'
+2021/03/24 20:18:51 [info] 2609#0: *20 connect: app='myapp' args='' flashver='' swf_url='' tc_url='rtmp://192.168.0.111/myapp' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 20:18:51 [info] 2609#0: *20 createStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 20:18:51 [info] 2609#0: *20 publish: name='' args='' type=live silent=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 20:19:31 [info] 2609#0: *20 disconnect, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 20:19:31 [info] 2609#0: *20 deleteStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 20:29:59 [info] 2609#0: *21 client connected '192.168.0.111'
+2021/03/24 20:29:59 [info] 2609#0: *21 connect: app='myapp' args='' flashver='' swf_url='' tc_url='rtmp://192.168.0.111/myapp' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 20:29:59 [info] 2609#0: *21 createStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 20:29:59 [info] 2609#0: *21 publish: name='' args='' type=live silent=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 20:30:28 [info] 2609#0: *21 disconnect, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 20:30:28 [info] 2609#0: *21 deleteStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 20:42:34 [info] 2609#0: *22 client connected '192.168.0.111'
+2021/03/24 20:42:34 [info] 2609#0: *22 connect: app='myapp' args='' flashver='' swf_url='' tc_url='rtmp://192.168.0.111/myapp' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 20:42:34 [info] 2609#0: *22 createStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 20:42:34 [info] 2609#0: *22 publish: name='' args='' type=live silent=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 20:43:06 [info] 2609#0: *22 disconnect, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 20:43:06 [info] 2609#0: *22 deleteStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 20:44:27 [info] 2609#0: *23 client connected '192.168.0.111'
+2021/03/24 20:44:27 [info] 2609#0: *23 connect: app='myapp' args='' flashver='' swf_url='' tc_url='rtmp://192.168.0.111/myapp' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 20:44:27 [info] 2609#0: *23 createStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 20:44:27 [info] 2609#0: *23 publish: name='' args='' type=live silent=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 20:44:59 [info] 2609#0: *23 disconnect, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 20:44:59 [info] 2609#0: *23 deleteStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 20:54:59 [info] 2609#0: *24 client connected '192.168.0.111'
+2021/03/24 20:54:59 [info] 2609#0: *24 connect: app='myapp' args='' flashver='' swf_url='' tc_url='rtmp://192.168.0.111/myapp' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 20:54:59 [info] 2609#0: *24 createStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 20:54:59 [info] 2609#0: *24 publish: name='' args='' type=live silent=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 20:55:58 [info] 2609#0: *24 disconnect, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 20:55:58 [info] 2609#0: *24 deleteStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 20:56:16 [info] 2609#0: *26 client timed out (110: Unknown error) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2021/03/24 20:58:06 [info] 2609#0: *27 client connected '192.168.0.111'
+2021/03/24 20:58:06 [info] 2609#0: *27 connect: app='myapp' args='' flashver='' swf_url='' tc_url='rtmp://192.168.0.111/myapp' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 20:58:06 [info] 2609#0: *27 createStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 20:58:06 [info] 2609#0: *27 publish: name='' args='' type=live silent=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 21:00:24 [info] 2609#0: *27 disconnect, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 21:00:24 [info] 2609#0: *27 deleteStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 21:00:45 [info] 2609#0: *28 client connected '192.168.0.111'
+2021/03/24 21:00:45 [info] 2609#0: *28 connect: app='myapp' args='' flashver='' swf_url='' tc_url='rtmp://192.168.0.111/myapp' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 21:00:45 [info] 2609#0: *28 createStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 21:00:45 [info] 2609#0: *28 publish: name='' args='' type=live silent=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 21:02:15 [info] 2609#0: *28 disconnect, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 21:02:15 [info] 2609#0: *28 deleteStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 21:02:40 [info] 2609#0: *29 client connected '192.168.0.111'
+2021/03/24 21:02:40 [info] 2609#0: *29 connect: app='myapp' args='' flashver='' swf_url='' tc_url='rtmp://192.168.0.111/myapp' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 21:02:40 [info] 2609#0: *29 createStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 21:02:40 [info] 2609#0: *29 publish: name='' args='' type=live silent=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 21:03:02 [info] 2609#0: *29 disconnect, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 21:03:02 [info] 2609#0: *29 deleteStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 21:03:15 [info] 2609#0: *30 client connected '192.168.0.111'
+2021/03/24 21:03:15 [info] 2609#0: *30 connect: app='myapp' args='' flashver='' swf_url='' tc_url='rtmp://192.168.0.111/myapp' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 21:03:15 [info] 2609#0: *30 createStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 21:03:15 [info] 2609#0: *30 publish: name='' args='' type=live silent=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 21:04:01 [info] 2609#0: *30 disconnect, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 21:04:01 [info] 2609#0: *30 deleteStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 21:04:59 [info] 2609#0: *31 client connected '192.168.0.111'
+2021/03/24 21:04:59 [info] 2609#0: *31 connect: app='myapp' args='' flashver='' swf_url='' tc_url='rtmp://192.168.0.111/myapp' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 21:04:59 [info] 2609#0: *31 createStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 21:04:59 [info] 2609#0: *31 publish: name='' args='' type=live silent=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 21:05:58 [info] 2609#0: *31 disconnect, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 21:05:58 [info] 2609#0: *31 deleteStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 21:06:06 [info] 2609#0: *33 client timed out (110: Unknown error) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2021/03/24 21:06:57 [info] 2609#0: *34 client connected '192.168.0.111'
+2021/03/24 21:06:57 [info] 2609#0: *34 connect: app='myapp' args='' flashver='' swf_url='' tc_url='rtmp://192.168.0.111/myapp' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 21:06:57 [info] 2609#0: *34 createStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 21:06:57 [info] 2609#0: *34 publish: name='' args='' type=live silent=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 21:08:24 [info] 2609#0: *34 disconnect, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 21:08:24 [info] 2609#0: *34 deleteStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 21:08:58 [info] 2609#0: *35 client connected '192.168.0.111'
+2021/03/24 21:08:58 [info] 2609#0: *35 connect: app='myapp' args='' flashver='' swf_url='' tc_url='rtmp://192.168.0.111/myapp' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 21:08:58 [info] 2609#0: *35 createStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 21:08:58 [info] 2609#0: *35 publish: name='' args='' type=live silent=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 21:09:59 [info] 2609#0: *35 disconnect, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 21:09:59 [info] 2609#0: *35 deleteStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 21:11:23 [info] 2609#0: *36 client connected '192.168.0.111'
+2021/03/24 21:11:23 [info] 2609#0: *36 connect: app='myapp' args='' flashver='' swf_url='' tc_url='rtmp://192.168.0.111/myapp' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 21:11:23 [info] 2609#0: *36 createStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 21:11:23 [info] 2609#0: *36 publish: name='' args='' type=live silent=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 21:22:52 [info] 2609#0: *36 disconnect, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/24 21:22:52 [info] 2609#0: *36 deleteStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 00:34:50 [info] 2609#0: *37 client connected '192.168.0.111'
+2021/03/25 00:34:50 [info] 2609#0: *37 connect: app='myapp' args='' flashver='' swf_url='' tc_url='rtmp://192.168.0.111/myapp' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 00:34:50 [info] 2609#0: *37 createStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 00:34:50 [info] 2609#0: *37 publish: name='' args='' type=live silent=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 00:34:55 [info] 2609#0: *37 disconnect, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 00:34:55 [info] 2609#0: *37 deleteStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 00:41:26 [info] 2609#0: *38 client connected '192.168.0.111'
+2021/03/25 00:41:26 [info] 2609#0: *38 connect: app='myapp' args='' flashver='' swf_url='' tc_url='rtmp://192.168.0.111/myapp' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 00:41:26 [info] 2609#0: *38 createStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 00:41:26 [info] 2609#0: *38 publish: name='' args='' type=live silent=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 00:41:52 [info] 2609#0: *38 disconnect, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 00:41:52 [info] 2609#0: *38 deleteStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 00:42:45 [info] 2609#0: *40 client timed out (110: Unknown error) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2021/03/25 00:44:32 [info] 2609#0: *41 client connected '192.168.0.111'
+2021/03/25 00:44:33 [info] 2609#0: *41 connect: app='myapp' args='' flashver='' swf_url='' tc_url='rtmp://192.168.0.111/myapp' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 00:44:33 [info] 2609#0: *41 createStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 00:44:33 [info] 2609#0: *41 publish: name='' args='' type=live silent=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 00:44:39 [info] 2609#0: *41 disconnect, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 00:44:39 [info] 2609#0: *41 deleteStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 00:46:05 [info] 2609#0: *42 client connected '192.168.0.111'
+2021/03/25 00:46:05 [info] 2609#0: *42 connect: app='myapp' args='' flashver='' swf_url='' tc_url='rtmp://192.168.0.111/myapp' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 00:46:05 [info] 2609#0: *42 createStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 00:46:05 [info] 2609#0: *42 publish: name='' args='' type=live silent=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 00:47:22 [info] 2609#0: *44 client timed out (110: Unknown error) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2021/03/25 00:47:35 [info] 2609#0: *42 disconnect, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 00:47:35 [info] 2609#0: *42 deleteStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 00:47:40 [info] 2609#0: *46 client connected '192.168.0.111'
+2021/03/25 00:47:40 [info] 2609#0: *46 connect: app='myapp' args='' flashver='' swf_url='' tc_url='rtmp://192.168.0.111/myapp' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 00:47:40 [info] 2609#0: *46 createStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 00:47:40 [info] 2609#0: *46 publish: name='' args='' type=live silent=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 00:47:44 [info] 2609#0: *46 disconnect, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 00:47:44 [info] 2609#0: *46 deleteStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 00:48:22 [info] 2609#0: *45 client timed out (110: Unknown error) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2021/03/25 00:48:58 [info] 2609#0: *47 client connected '192.168.0.111'
+2021/03/25 00:48:58 [info] 2609#0: *47 connect: app='myapp' args='' flashver='' swf_url='' tc_url='rtmp://192.168.0.111/myapp' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 00:48:58 [info] 2609#0: *47 createStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 00:48:58 [info] 2609#0: *47 publish: name='' args='' type=live silent=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 00:49:24 [info] 2609#0: *47 disconnect, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 00:49:24 [info] 2609#0: *47 deleteStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 00:49:30 [info] 2609#0: *50 client connected '192.168.0.111'
+2021/03/25 00:49:31 [info] 2609#0: *50 connect: app='myapp' args='' flashver='' swf_url='' tc_url='rtmp://192.168.0.111/myapp' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 00:49:31 [info] 2609#0: *50 createStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 00:49:31 [info] 2609#0: *50 publish: name='' args='' type=live silent=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 00:50:03 [info] 2609#0: *49 client timed out (110: Unknown error) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2021/03/25 00:50:28 [info] 2609#0: *50 disconnect, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 00:50:28 [info] 2609#0: *50 deleteStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 00:56:56 [info] 2609#0: *51 client connected '192.168.0.111'
+2021/03/25 00:56:56 [info] 2609#0: *51 connect: app='myapp' args='' flashver='' swf_url='' tc_url='rtmp://192.168.0.111/myapp' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 00:56:56 [info] 2609#0: *51 createStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 00:56:56 [info] 2609#0: *51 publish: name='' args='' type=live silent=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 00:58:11 [info] 2609#0: *53 client timed out (110: Unknown error) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2021/03/25 00:58:12 [info] 2609#0: *51 disconnect, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 00:58:12 [info] 2609#0: *51 deleteStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 01:02:33 [info] 2609#0: *54 client connected '192.168.0.100'
+2021/03/25 01:02:33 [info] 2609#0: *54 connect: app='myapp' args='' flashver='' swf_url='' tc_url='rtmp://192.168.0.111/myapp' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.0.100, server: 0.0.0.0:1935
+2021/03/25 01:02:33 [info] 2609#0: *54 createStream, client: 192.168.0.100, server: 0.0.0.0:1935
+2021/03/25 01:02:33 [info] 2609#0: *54 publish: name='' args='' type=live silent=0, client: 192.168.0.100, server: 0.0.0.0:1935
+2021/03/25 01:03:05 [info] 2609#0: *54 disconnect, client: 192.168.0.100, server: 0.0.0.0:1935
+2021/03/25 01:03:05 [info] 2609#0: *54 deleteStream, client: 192.168.0.100, server: 0.0.0.0:1935
+2021/03/25 01:04:00 [info] 2609#0: *56 client timed out (110: Unknown error) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2021/03/25 01:13:08 [info] 2609#0: *57 client connected '192.168.0.111'
+2021/03/25 01:13:08 [info] 2609#0: *57 connect: app='myapp' args='' flashver='' swf_url='' tc_url='rtmp://192.168.0.111/myapp' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 01:13:08 [info] 2609#0: *57 createStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 01:13:08 [info] 2609#0: *57 publish: name='' args='' type=live silent=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 01:16:01 [info] 2609#0: *57 disconnect, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 01:16:01 [info] 2609#0: *57 deleteStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 01:16:27 [info] 2609#0: *59 client timed out (110: Unknown error) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2021/03/25 01:18:58 [info] 2609#0: *60 client connected '192.168.0.111'
+2021/03/25 01:18:58 [info] 2609#0: *60 connect: app='myapp' args='' flashver='' swf_url='' tc_url='rtmp://192.168.0.111/myapp' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 01:18:58 [info] 2609#0: *60 createStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 01:18:58 [info] 2609#0: *60 publish: name='' args='' type=live silent=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 01:20:09 [info] 2609#0: *62 client timed out (110: Unknown error) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2021/03/25 01:25:56 [info] 2609#0: *60 disconnect, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 01:25:56 [info] 2609#0: *60 deleteStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 01:30:13 [notice] 2609#0: signal 15 (SIGTERM) received from 1296, exiting
+2021/03/25 01:30:13 [notice] 2608#0: signal 15 (SIGTERM) received from 1296, exiting
+2021/03/25 01:30:13 [info] 2609#0: epoll_wait() failed (4: Interrupted system call)
+2021/03/25 01:30:13 [notice] 2609#0: exiting
+2021/03/25 01:30:13 [notice] 2609#0: exit
+2021/03/25 01:30:13 [notice] 2608#0: signal 17 (SIGCHLD) received from 2609
+2021/03/25 01:30:13 [notice] 2608#0: worker process 2609 exited with code 0
+2021/03/25 01:30:13 [notice] 2608#0: exit
+2021/03/25 12:34:51 [notice] 3563#0: using the "epoll" event method
+2021/03/25 12:34:51 [notice] 3563#0: nginx/1.18.0
+2021/03/25 12:34:51 [notice] 3563#0: built by gcc 10.2.0 (GCC) 
+2021/03/25 12:34:51 [notice] 3563#0: OS: Linux 5.4.105-1-MANJARO
+2021/03/25 12:34:51 [notice] 3563#0: getrlimit(RLIMIT_NOFILE): 1024:524288
+2021/03/25 12:34:51 [notice] 3564#0: start worker processes
+2021/03/25 12:34:51 [notice] 3564#0: start worker process 3565
+2021/03/25 12:38:49 [info] 3565#0: *1 client connected '192.168.0.111'
+2021/03/25 12:38:49 [info] 3565#0: *1 connect: app='myapp' args='' flashver='' swf_url='' tc_url='rtmp://192.168.0.111/myapp' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 12:38:49 [info] 3565#0: *1 createStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 12:38:49 [info] 3565#0: *1 publish: name='' args='' type=live silent=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 12:38:50 [info] 3565#0: *1 disconnect, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 12:38:50 [info] 3565#0: *1 deleteStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 12:45:50 [info] 3565#0: *2 client connected '192.168.0.111'
+2021/03/25 12:45:50 [info] 3565#0: *2 connect: app='myapp' args='' flashver='' swf_url='' tc_url='rtmp://192.168.0.111/myapp' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 12:45:50 [info] 3565#0: *2 createStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 12:45:50 [info] 3565#0: *2 publish: name='' args='' type=live silent=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 12:45:50 [info] 3565#0: *2 disconnect, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 12:45:50 [info] 3565#0: *2 deleteStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 12:48:07 [info] 3565#0: *3 client connected '192.168.0.111'
+2021/03/25 12:48:07 [info] 3565#0: *3 connect: app='myapp' args='' flashver='' swf_url='' tc_url='rtmp://192.168.0.111/myapp' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 12:48:07 [info] 3565#0: *3 createStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 12:48:07 [info] 3565#0: *3 publish: name='' args='' type=live silent=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 12:48:08 [info] 3565#0: *3 disconnect, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 12:48:08 [info] 3565#0: *3 deleteStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 12:49:38 [info] 3565#0: *4 client connected '192.168.0.111'
+2021/03/25 12:49:38 [info] 3565#0: *4 connect: app='myapp' args='' flashver='' swf_url='' tc_url='rtmp://192.168.0.111/myapp' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 12:49:38 [info] 3565#0: *4 createStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 12:49:38 [info] 3565#0: *4 publish: name='' args='' type=live silent=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 12:50:00 [info] 3565#0: *4 disconnect, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 12:50:00 [info] 3565#0: *4 deleteStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 12:50:05 [info] 3565#0: *5 client connected '192.168.0.111'
+2021/03/25 12:50:05 [info] 3565#0: *5 connect: app='myapp' args='' flashver='' swf_url='' tc_url='rtmp://192.168.0.111/myapp' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 12:50:05 [info] 3565#0: *5 createStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 12:50:05 [info] 3565#0: *5 publish: name='' args='' type=live silent=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 12:50:05 [info] 3565#0: *5 disconnect, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 12:50:05 [info] 3565#0: *5 deleteStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 12:50:09 [info] 3565#0: *6 client connected '192.168.0.111'
+2021/03/25 12:50:09 [info] 3565#0: *6 connect: app='myapp' args='' flashver='' swf_url='' tc_url='rtmp://192.168.0.111/myapp' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 12:50:09 [info] 3565#0: *6 createStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 12:50:09 [info] 3565#0: *6 publish: name='' args='' type=live silent=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 12:50:12 [info] 3565#0: *6 disconnect, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 12:50:12 [info] 3565#0: *6 deleteStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 12:50:56 [info] 3565#0: *7 client connected '192.168.0.111'
+2021/03/25 12:50:56 [info] 3565#0: *7 connect: app='myapp' args='' flashver='' swf_url='' tc_url='rtmp://192.168.0.111/myapp' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 12:50:56 [info] 3565#0: *7 createStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 12:50:56 [info] 3565#0: *7 publish: name='' args='' type=live silent=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 12:51:00 [info] 3565#0: *7 disconnect, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 12:51:00 [info] 3565#0: *7 deleteStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 12:55:59 [info] 3565#0: *8 client connected '192.168.0.111'
+2021/03/25 12:55:59 [info] 3565#0: *8 connect: app='myapp' args='' flashver='' swf_url='' tc_url='rtmp://192.168.0.111/myapp' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 12:55:59 [info] 3565#0: *8 createStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 12:55:59 [info] 3565#0: *8 publish: name='' args='' type=live silent=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 12:55:59 [info] 3565#0: *8 disconnect, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 12:55:59 [info] 3565#0: *8 deleteStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 12:56:06 [info] 3565#0: *9 client connected '192.168.0.111'
+2021/03/25 12:56:06 [info] 3565#0: *9 connect: app='myapp' args='' flashver='' swf_url='' tc_url='rtmp://192.168.0.111/myapp' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 12:56:06 [info] 3565#0: *9 createStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 12:56:06 [info] 3565#0: *9 publish: name='' args='' type=live silent=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 12:56:09 [info] 3565#0: *9 disconnect, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 12:56:09 [info] 3565#0: *9 deleteStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 12:57:34 [info] 3565#0: *10 client connected '192.168.0.111'
+2021/03/25 12:57:34 [info] 3565#0: *10 connect: app='myapp' args='' flashver='' swf_url='' tc_url='rtmp://192.168.0.111/myapp' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 12:57:34 [info] 3565#0: *10 createStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 12:57:34 [info] 3565#0: *10 publish: name='' args='' type=live silent=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 12:57:35 [info] 3565#0: *10 disconnect, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 12:57:35 [info] 3565#0: *10 deleteStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 12:57:40 [info] 3565#0: *11 client connected '192.168.0.111'
+2021/03/25 12:57:40 [info] 3565#0: *11 connect: app='myapp' args='' flashver='' swf_url='' tc_url='rtmp://192.168.0.111/myapp' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 12:57:40 [info] 3565#0: *11 createStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 12:57:40 [info] 3565#0: *11 publish: name='' args='' type=live silent=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 12:57:41 [info] 3565#0: *11 disconnect, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 12:57:41 [info] 3565#0: *11 deleteStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 13:01:50 [info] 3565#0: *12 client connected '192.168.0.111'
+2021/03/25 13:01:50 [info] 3565#0: *12 connect: app='myapp' args='' flashver='' swf_url='' tc_url='rtmp://192.168.0.111/myapp' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 13:01:50 [info] 3565#0: *12 createStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 13:01:50 [info] 3565#0: *12 publish: name='' args='' type=live silent=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 13:01:51 [info] 3565#0: *12 disconnect, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 13:01:51 [info] 3565#0: *12 deleteStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 13:04:40 [info] 3565#0: *13 client connected '192.168.0.111'
+2021/03/25 13:04:40 [info] 3565#0: *13 connect: app='myapp' args='' flashver='' swf_url='' tc_url='rtmp://192.168.0.111/myapp' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 13:04:40 [info] 3565#0: *13 createStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 13:04:40 [info] 3565#0: *13 publish: name='' args='' type=live silent=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 13:04:48 [info] 3565#0: *13 disconnect, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 13:04:48 [info] 3565#0: *13 deleteStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 13:04:58 [info] 3565#0: *14 client connected '127.0.0.1'
+2021/03/25 13:04:58 [info] 3565#0: *14 connect: app='myapp' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://localhost:1935/myapp' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 13:04:58 [info] 3565#0: *14 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 13:04:58 [info] 3565#0: *14 play: name='' args='' start=-2000 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 13:05:03 [info] 3565#0: *15 client connected '192.168.0.111'
+2021/03/25 13:05:03 [info] 3565#0: *15 connect: app='myapp' args='' flashver='' swf_url='' tc_url='rtmp://192.168.0.111/myapp' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 13:05:03 [info] 3565#0: *15 createStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 13:05:03 [info] 3565#0: *15 publish: name='' args='' type=live silent=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 13:05:05 [info] 3565#0: *15 disconnect, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 13:05:05 [info] 3565#0: *15 deleteStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 13:09:54 [info] 3565#0: *16 client connected '192.168.0.111'
+2021/03/25 13:09:54 [info] 3565#0: *16 connect: app='myapp' args='' flashver='' swf_url='' tc_url='rtmp://192.168.0.111/myapp' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 13:09:54 [info] 3565#0: *16 createStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 13:09:54 [info] 3565#0: *16 publish: name='' args='' type=live silent=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 13:10:18 [info] 3565#0: *16 disconnect, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 13:10:18 [info] 3565#0: *16 deleteStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 13:11:38 [info] 3565#0: *17 client connected '192.168.0.111'
+2021/03/25 13:11:39 [info] 3565#0: *17 connect: app='myapp' args='' flashver='' swf_url='' tc_url='rtmp://192.168.0.111/myapp' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 13:11:39 [info] 3565#0: *17 createStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 13:11:39 [info] 3565#0: *17 publish: name='' args='' type=live silent=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 13:11:46 [info] 3565#0: *14 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 13:11:46 [info] 3565#0: *14 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 13:11:48 [info] 3565#0: *18 client connected '127.0.0.1'
+2021/03/25 13:11:48 [info] 3565#0: *18 connect: app='myapp' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://localhost:1935/myapp' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 13:11:48 [info] 3565#0: *18 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 13:11:48 [info] 3565#0: *18 play: name='' args='' start=-2000 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 13:11:52 [info] 3565#0: *18 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 13:11:52 [info] 3565#0: *18 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 13:11:54 [info] 3565#0: *19 client connected '127.0.0.1'
+2021/03/25 13:11:54 [info] 3565#0: *19 connect: app='myapp' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://localhost:1935/myapp' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 13:11:54 [info] 3565#0: *19 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 13:11:54 [info] 3565#0: *19 play: name='' args='' start=-2000 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 13:12:05 [error] 3565#0: *20 open() "./nginx_conf/../rtmp/www/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/stat"
+2021/03/25 13:12:15 [info] 3565#0: *17 disconnect, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 13:12:15 [info] 3565#0: *17 deleteStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 13:13:05 [info] 3565#0: *21 client timed out (110: Unknown error) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2021/03/25 13:17:55 [info] 3565#0: *22 client connected '192.168.0.111'
+2021/03/25 13:17:55 [info] 3565#0: *22 connect: app='myapp' args='' flashver='' swf_url='' tc_url='rtmp://192.168.0.111/myapp' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 13:17:55 [info] 3565#0: *22 createStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 13:17:55 [info] 3565#0: *22 publish: name='' args='' type=live silent=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 13:18:03 [info] 3565#0: *19 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 13:18:03 [info] 3565#0: *19 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 13:18:05 [info] 3565#0: *23 client connected '127.0.0.1'
+2021/03/25 13:18:05 [info] 3565#0: *23 connect: app='myapp' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://localhost:1935/myapp' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 13:18:05 [info] 3565#0: *23 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 13:18:05 [info] 3565#0: *23 play: name='' args='' start=-2000 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 13:18:08 [info] 3565#0: *22 disconnect, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 13:18:08 [info] 3565#0: *22 deleteStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 13:18:13 [info] 3565#0: *24 client connected '192.168.0.111'
+2021/03/25 13:18:13 [info] 3565#0: *24 connect: app='myapp' args='' flashver='' swf_url='' tc_url='rtmp://192.168.0.111/myapp' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 13:18:13 [info] 3565#0: *24 createStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 13:18:13 [info] 3565#0: *24 publish: name='' args='' type=live silent=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 13:18:14 [info] 3565#0: *24 disconnect, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 13:18:14 [info] 3565#0: *24 deleteStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 13:34:07 [info] 3565#0: *25 client connected '192.168.0.111'
+2021/03/25 13:34:07 [info] 3565#0: *25 connect: app='myapp' args='' flashver='' swf_url='' tc_url='rtmp://192.168.0.111/myapp' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 13:34:07 [info] 3565#0: *25 createStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 13:34:07 [info] 3565#0: *25 publish: name='' args='' type=live silent=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 13:34:08 [info] 3565#0: *25 disconnect, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 13:34:08 [info] 3565#0: *25 deleteStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 13:35:12 [info] 3565#0: *26 client connected '192.168.0.111'
+2021/03/25 13:35:12 [info] 3565#0: *26 connect: app='myapp' args='' flashver='' swf_url='' tc_url='rtmp://192.168.0.111/myapp' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 13:35:12 [info] 3565#0: *26 createStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 13:35:12 [info] 3565#0: *26 publish: name='' args='' type=live silent=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 13:35:13 [info] 3565#0: *26 disconnect, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 13:35:13 [info] 3565#0: *26 deleteStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 13:35:18 [info] 3565#0: *27 client connected '192.168.0.111'
+2021/03/25 13:35:18 [info] 3565#0: *27 connect: app='myapp' args='' flashver='' swf_url='' tc_url='rtmp://192.168.0.111/myapp' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 13:35:18 [info] 3565#0: *27 createStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 13:35:18 [info] 3565#0: *27 publish: name='' args='' type=live silent=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 13:35:19 [info] 3565#0: *27 disconnect, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 13:35:19 [info] 3565#0: *27 deleteStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 13:35:24 [info] 3565#0: *23 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 13:35:24 [info] 3565#0: *23 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 13:35:26 [info] 3565#0: *28 client connected '127.0.0.1'
+2021/03/25 13:35:26 [info] 3565#0: *28 connect: app='myapp' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://localhost:1935/myapp' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 13:35:26 [info] 3565#0: *28 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 13:35:26 [info] 3565#0: *28 play: name='' args='' start=-2000 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 13:35:30 [info] 3565#0: *29 client connected '192.168.0.111'
+2021/03/25 13:35:30 [info] 3565#0: *29 connect: app='myapp' args='' flashver='' swf_url='' tc_url='rtmp://192.168.0.111/myapp' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 13:35:30 [info] 3565#0: *29 createStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 13:35:30 [info] 3565#0: *29 publish: name='' args='' type=live silent=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 13:35:31 [info] 3565#0: *29 disconnect, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 13:35:31 [info] 3565#0: *29 deleteStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 13:35:44 [info] 3565#0: *30 client connected '192.168.0.111'
+2021/03/25 13:35:44 [info] 3565#0: *30 connect: app='myapp' args='' flashver='' swf_url='' tc_url='rtmp://192.168.0.111/myapp' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 13:35:44 [info] 3565#0: *30 createStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 13:35:44 [info] 3565#0: *30 publish: name='' args='' type=live silent=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 13:35:45 [info] 3565#0: *30 disconnect, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 13:35:45 [info] 3565#0: *30 deleteStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 13:36:10 [info] 3565#0: *31 client connected '192.168.0.111'
+2021/03/25 13:36:10 [info] 3565#0: *31 connect: app='myapp' args='' flashver='' swf_url='' tc_url='rtmp://192.168.0.111/myapp' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 13:36:10 [info] 3565#0: *31 createStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 13:36:10 [info] 3565#0: *31 publish: name='' args='' type=live silent=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 13:36:11 [info] 3565#0: *31 disconnect, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 13:36:11 [info] 3565#0: *31 deleteStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 13:37:43 [info] 3565#0: *32 client connected '192.168.0.111'
+2021/03/25 13:37:43 [info] 3565#0: *32 connect: app='myapp' args='' flashver='' swf_url='' tc_url='rtmp://192.168.0.111/myapp' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 13:37:43 [info] 3565#0: *32 createStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 13:37:43 [info] 3565#0: *32 publish: name='' args='' type=live silent=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 13:37:48 [info] 3565#0: *28 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 13:37:48 [info] 3565#0: *28 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 13:37:49 [info] 3565#0: *33 client connected '127.0.0.1'
+2021/03/25 13:37:49 [info] 3565#0: *33 connect: app='myapp' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://localhost:1935/myapp' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 13:37:49 [info] 3565#0: *33 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 13:37:49 [info] 3565#0: *33 play: name='' args='' start=-2000 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 13:37:51 [info] 3565#0: *32 disconnect, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 13:37:51 [info] 3565#0: *32 deleteStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 13:37:59 [info] 3565#0: *34 client connected '192.168.0.111'
+2021/03/25 13:37:59 [info] 3565#0: *34 connect: app='myapp' args='' flashver='' swf_url='' tc_url='rtmp://192.168.0.111/myapp' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 13:37:59 [info] 3565#0: *34 createStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 13:37:59 [info] 3565#0: *34 publish: name='' args='' type=live silent=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 13:38:07 [info] 3565#0: *34 disconnect, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 13:38:07 [info] 3565#0: *34 deleteStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 13:43:14 [info] 3565#0: *35 client connected '192.168.0.111'
+2021/03/25 13:43:14 [info] 3565#0: *35 connect: app='myapp' args='' flashver='' swf_url='' tc_url='rtmp://192.168.0.111/myapp' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 13:43:14 [info] 3565#0: *35 createStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 13:43:14 [info] 3565#0: *35 publish: name='' args='' type=live silent=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 13:43:15 [info] 3565#0: *35 disconnect, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 13:43:15 [info] 3565#0: *35 deleteStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 13:50:30 [info] 3565#0: *36 client connected '192.168.0.111'
+2021/03/25 13:50:30 [info] 3565#0: *36 connect: app='myapp' args='' flashver='' swf_url='' tc_url='rtmp://192.168.0.111/myapp' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 13:50:30 [info] 3565#0: *36 createStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 13:50:30 [info] 3565#0: *36 publish: name='' args='' type=live silent=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 13:51:43 [info] 3565#0: *38 client timed out (110: Unknown error) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2021/03/25 13:52:24 [info] 3565#0: *33 recv() failed (104: Unknown error), client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 13:52:24 [info] 3565#0: *33 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 13:52:24 [info] 3565#0: *33 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 13:53:06 [info] 3565#0: *40 client timed out (110: Unknown error) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2021/03/25 13:53:10 [info] 3565#0: *36 disconnect, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 13:53:10 [info] 3565#0: *36 deleteStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 13:53:26 [info] 3565#0: *39 client 127.0.0.1 closed keepalive connection
+2021/03/25 13:53:26 [notice] 3565#0: signal 15 (SIGTERM) received from 1348, exiting
+2021/03/25 13:53:26 [info] 3565#0: epoll_wait() failed (4: Interrupted system call)
+2021/03/25 13:53:26 [notice] 3565#0: exiting
+2021/03/25 13:53:26 [notice] 3565#0: exit
+2021/03/25 13:53:26 [notice] 3564#0: signal 17 (SIGCHLD) received from 3565
+2021/03/25 13:53:26 [notice] 3564#0: worker process 3565 exited with code 0
+2021/03/25 13:53:26 [notice] 3564#0: signal 15 (SIGTERM) received from 1348, exiting
+2021/03/25 13:53:26 [notice] 3564#0: exit
+2021/03/25 19:50:14 [notice] 2290#0: using the "epoll" event method
+2021/03/25 19:50:14 [notice] 2290#0: nginx/1.18.0
+2021/03/25 19:50:14 [notice] 2290#0: built by gcc 10.2.0 (GCC) 
+2021/03/25 19:50:14 [notice] 2290#0: OS: Linux 5.4.105-1-MANJARO
+2021/03/25 19:50:14 [notice] 2290#0: getrlimit(RLIMIT_NOFILE): 1024:524288
+2021/03/25 19:50:14 [notice] 2291#0: start worker processes
+2021/03/25 19:50:14 [notice] 2291#0: start worker process 2294
+2021/03/25 19:51:53 [notice] 2291#0: signal 15 (SIGTERM) received from 1350, exiting
+2021/03/25 19:51:53 [notice] 2294#0: signal 15 (SIGTERM) received from 1350, exiting
+2021/03/25 19:51:53 [notice] 2294#0: exiting
+2021/03/25 19:51:53 [notice] 2294#0: exit
+2021/03/25 19:51:53 [notice] 2291#0: signal 17 (SIGCHLD) received from 2294
+2021/03/25 19:51:53 [notice] 2291#0: worker process 2294 exited with code 0
+2021/03/25 19:51:53 [notice] 2291#0: exit
+2021/03/25 19:56:59 [notice] 2291#0: using the "epoll" event method
+2021/03/25 19:56:59 [notice] 2291#0: nginx/1.18.0
+2021/03/25 19:56:59 [notice] 2291#0: built by gcc 10.2.0 (GCC) 
+2021/03/25 19:56:59 [notice] 2291#0: OS: Linux 5.4.105-1-MANJARO
+2021/03/25 19:56:59 [notice] 2291#0: getrlimit(RLIMIT_NOFILE): 1024:524288
+2021/03/25 19:56:59 [notice] 2292#0: start worker processes
+2021/03/25 19:56:59 [notice] 2292#0: start worker process 2293
+2021/03/25 19:58:36 [error] 2293#0: *1 open() "./nginx_conf/../rtmp/www/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/stat"
+2021/03/25 19:59:34 [info] 2293#0: *3 client connected '192.168.0.111'
+2021/03/25 19:59:34 [info] 2293#0: *3 connect: app='myapp' args='' flashver='' swf_url='' tc_url='rtmp://192.168.0.111/myapp' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 19:59:34 [info] 2293#0: *3 createStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 19:59:34 [info] 2293#0: *3 publish: name='' args='' type=live silent=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 19:59:35 [info] 2293#0: *3 disconnect, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 19:59:35 [info] 2293#0: *3 deleteStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 19:59:36 [info] 2293#0: *2 client timed out (110: Unknown error) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2021/03/25 20:00:58 [info] 2293#0: *4 client connected '192.168.0.111'
+2021/03/25 20:00:58 [info] 2293#0: *4 connect: app='myapp' args='' flashver='' swf_url='' tc_url='rtmp://192.168.0.111/myapp' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 20:00:58 [info] 2293#0: *4 createStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 20:00:58 [info] 2293#0: *4 publish: name='' args='' type=live silent=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 20:01:11 [info] 2293#0: *7 client connected '127.0.0.1'
+2021/03/25 20:01:11 [info] 2293#0: *7 connect: app='myapp' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://localhost:1935/myapp' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 20:01:11 [info] 2293#0: *7 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 20:01:11 [info] 2293#0: *7 play: name='' args='' start=-2000 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 20:02:02 [info] 2293#0: *6 client timed out (110: Unknown error) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2021/03/25 20:03:40 [info] 2293#0: *8 client timed out (110: Unknown error) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2021/03/25 20:04:34 [info] 2293#0: *7 recv() failed (104: Unknown error), client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 20:04:34 [info] 2293#0: *7 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 20:04:34 [info] 2293#0: *7 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 20:25:59 [info] 2293#0: *4 disconnect, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 20:25:59 [info] 2293#0: *4 deleteStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 20:26:50 [info] 2293#0: *9 client connected '127.0.0.1'
+2021/03/25 20:26:50 [info] 2293#0: *9 connect: app='myapp' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://localhost:1935/myapp' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 20:26:50 [info] 2293#0: *9 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 20:26:50 [info] 2293#0: *9 play: name='' args='' start=-2000 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 20:27:12 [info] 2293#0: *12 client connected '192.168.0.111'
+2021/03/25 20:27:12 [info] 2293#0: *12 connect: app='myapp' args='' flashver='' swf_url='' tc_url='rtmp://192.168.0.111/myapp' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 20:27:12 [info] 2293#0: *12 createStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 20:27:12 [info] 2293#0: *12 publish: name='' args='' type=live silent=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 20:27:14 [info] 2293#0: *12 disconnect, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 20:27:14 [info] 2293#0: *12 deleteStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 20:27:53 [info] 2293#0: *11 client timed out (110: Unknown error) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2021/03/25 20:29:08 [info] 2293#0: *13 client connected '192.168.0.111'
+2021/03/25 20:29:08 [info] 2293#0: *13 connect: app='myapp' args='' flashver='' swf_url='' tc_url='rtmp://192.168.0.111/myapp' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 20:29:08 [info] 2293#0: *13 createStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 20:29:08 [info] 2293#0: *13 publish: name='' args='' type=live silent=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 20:35:13 [info] 2293#0: *13 disconnect, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 20:35:13 [info] 2293#0: *13 deleteStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 20:38:06 [info] 2293#0: *14 client connected '192.168.0.111'
+2021/03/25 20:38:06 [info] 2293#0: *14 connect: app='myapp' args='' flashver='' swf_url='' tc_url='rtmp://192.168.0.111/myapp' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 20:38:06 [info] 2293#0: *14 createStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 20:38:06 [info] 2293#0: *14 publish: name='' args='' type=live silent=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 20:41:39 [info] 2293#0: *14 disconnect, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 20:41:39 [info] 2293#0: *14 deleteStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 20:53:01 [info] 2293#0: *15 client connected '192.168.0.111'
+2021/03/25 20:53:01 [info] 2293#0: *15 connect: app='myapp' args='' flashver='' swf_url='' tc_url='rtmp://192.168.0.111/myapp' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 20:53:01 [info] 2293#0: *15 createStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 20:53:01 [info] 2293#0: *15 publish: name='' args='' type=live silent=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 20:53:05 [info] 2293#0: *15 disconnect, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 20:53:05 [info] 2293#0: *15 deleteStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 21:00:40 [info] 2293#0: *16 client connected '192.168.0.111'
+2021/03/25 21:00:40 [info] 2293#0: *16 connect: app='myapp' args='' flashver='' swf_url='' tc_url='rtmp://192.168.0.111/myapp' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 21:00:40 [info] 2293#0: *16 createStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 21:00:40 [info] 2293#0: *16 publish: name='' args='' type=live silent=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 21:01:51 [info] 2293#0: *16 disconnect, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 21:01:51 [info] 2293#0: *16 deleteStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 21:01:59 [info] 2293#0: *18 client timed out (110: Unknown error) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2021/03/25 21:02:04 [info] 2293#0: *9 recv() failed (104: Unknown error), client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 21:02:04 [info] 2293#0: *9 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 21:02:04 [info] 2293#0: *9 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 21:02:15 [info] 2293#0: *19 client connected '127.0.0.1'
+2021/03/25 21:02:15 [info] 2293#0: *19 connect: app='myapp' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://localhost:1935/myapp' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 21:02:15 [info] 2293#0: *19 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 21:02:15 [info] 2293#0: *19 play: name='' args='' start=-2000 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 21:02:26 [info] 2293#0: *20 client connected '192.168.0.111'
+2021/03/25 21:02:26 [info] 2293#0: *20 connect: app='myapp' args='' flashver='' swf_url='' tc_url='rtmp://192.168.0.111/myapp' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 21:02:26 [info] 2293#0: *20 createStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 21:02:26 [info] 2293#0: *20 publish: name='' args='' type=live silent=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 21:03:05 [info] 2293#0: *20 disconnect, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 21:03:05 [info] 2293#0: *20 deleteStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 21:03:17 [info] 2293#0: *19 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 21:03:17 [info] 2293#0: *19 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 21:03:22 [info] 2293#0: *21 client connected '192.168.0.111'
+2021/03/25 21:03:22 [info] 2293#0: *21 connect: app='myapp' args='' flashver='' swf_url='' tc_url='rtmp://192.168.0.111/myapp' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 21:03:22 [info] 2293#0: *21 createStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 21:03:22 [info] 2293#0: *21 publish: name='' args='' type=live silent=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 21:04:36 [info] 2293#0: *21 disconnect, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 21:04:36 [info] 2293#0: *21 deleteStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 21:04:48 [info] 2293#0: *22 client connected '192.168.0.111'
+2021/03/25 21:04:48 [info] 2293#0: *22 connect: app='myapp' args='' flashver='' swf_url='' tc_url='rtmp://192.168.0.111/myapp' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 21:04:48 [info] 2293#0: *22 createStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 21:04:48 [info] 2293#0: *22 publish: name='' args='' type=live silent=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 21:04:52 [info] 2293#0: *22 disconnect, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 21:04:52 [info] 2293#0: *22 deleteStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 21:05:23 [info] 2293#0: *23 client connected '192.168.0.111'
+2021/03/25 21:05:23 [info] 2293#0: *23 connect: app='myapp' args='' flashver='' swf_url='' tc_url='rtmp://192.168.0.111/myapp' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 21:05:23 [info] 2293#0: *23 createStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 21:05:23 [info] 2293#0: *23 publish: name='' args='' type=live silent=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 21:05:32 [info] 2293#0: *23 disconnect, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 21:05:32 [info] 2293#0: *23 deleteStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 21:09:23 [info] 2293#0: *25 client timed out (110: Unknown error) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2021/03/25 21:15:58 [info] 2293#0: *26 client connected '192.168.0.111'
+2021/03/25 21:15:58 [info] 2293#0: *26 connect: app='myapp' args='' flashver='' swf_url='' tc_url='rtmp://192.168.0.111/myapp' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 21:15:58 [info] 2293#0: *26 createStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 21:15:58 [info] 2293#0: *26 publish: name='' args='' type=live silent=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 21:15:58 [info] 2293#0: *26 disconnect, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 21:15:58 [info] 2293#0: *26 deleteStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 21:19:00 [emerg] 11259#0: bind() to 0.0.0.0:1935 failed (98: Unknown error)
+2021/03/25 21:19:00 [emerg] 11259#0: bind() to 0.0.0.0:8080 failed (98: Unknown error)
+2021/03/25 21:19:00 [notice] 11259#0: try again to bind() after 500ms
+2021/03/25 21:19:00 [emerg] 11259#0: bind() to 0.0.0.0:1935 failed (98: Unknown error)
+2021/03/25 21:19:00 [emerg] 11259#0: bind() to 0.0.0.0:8080 failed (98: Unknown error)
+2021/03/25 21:19:00 [notice] 11259#0: try again to bind() after 500ms
+2021/03/25 21:19:00 [emerg] 11259#0: bind() to 0.0.0.0:1935 failed (98: Unknown error)
+2021/03/25 21:19:00 [emerg] 11259#0: bind() to 0.0.0.0:8080 failed (98: Unknown error)
+2021/03/25 21:19:00 [notice] 11259#0: try again to bind() after 500ms
+2021/03/25 21:19:05 [notice] 2293#0: signal 15 (SIGTERM) received from 11268, exiting
+2021/03/25 21:19:05 [notice] 2292#0: signal 15 (SIGTERM) received from 11268, exiting
+2021/03/25 21:19:05 [info] 2293#0: epoll_wait() failed (4: Interrupted system call)
+2021/03/25 21:19:05 [notice] 2293#0: exiting
+2021/03/25 21:19:05 [notice] 2293#0: exit
+2021/03/25 21:19:05 [notice] 2292#0: signal 17 (SIGCHLD) received from 2293
+2021/03/25 21:19:05 [notice] 2292#0: worker process 2293 exited with code 0
+2021/03/25 21:19:05 [notice] 2292#0: exit
+2021/03/25 21:19:06 [notice] 11273#0: using the "epoll" event method
+2021/03/25 21:19:06 [notice] 11273#0: nginx/1.18.0
+2021/03/25 21:19:06 [notice] 11273#0: built by gcc 10.2.0 (GCC) 
+2021/03/25 21:19:06 [notice] 11273#0: OS: Linux 5.4.105-1-MANJARO
+2021/03/25 21:19:06 [notice] 11273#0: getrlimit(RLIMIT_NOFILE): 1024:524288
+2021/03/25 21:19:06 [notice] 11274#0: start worker processes
+2021/03/25 21:19:06 [notice] 11274#0: start worker process 11275
+2021/03/25 21:23:43 [info] 11275#0: *1 client connected '192.168.0.111'
+2021/03/25 21:23:43 [info] 11275#0: *1 connect: app='myapp' args='' flashver='' swf_url='' tc_url='rtmp://192.168.0.111/myapp' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 21:23:43 [info] 11275#0: *1 createStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 21:23:43 [info] 11275#0: *1 publish: name='' args='' type=live silent=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 21:24:39 [info] 11275#0: *1 deleteStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 21:24:39 [info] 11275#0: *1 disconnect, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 21:24:39 [info] 11275#0: *1 deleteStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 21:24:50 [info] 11275#0: *2 client connected '192.168.0.111'
+2021/03/25 21:24:50 [info] 11275#0: *2 connect: app='myapp' args='' flashver='' swf_url='' tc_url='rtmp://192.168.0.111/myapp' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 21:24:50 [info] 11275#0: *2 createStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 21:24:50 [info] 11275#0: *2 publish: name='' args='' type=live silent=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 21:25:17 [info] 11275#0: *3 client connected '192.168.0.111'
+2021/03/25 21:25:17 [info] 11275#0: *3 connect: app='myapp' args='' flashver='' swf_url='' tc_url='rtmp://192.168.0.111/myapp' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 21:25:17 [info] 11275#0: *3 createStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 21:25:17 [info] 11275#0: *3 publish: name='' args='' type=live silent=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 21:25:17 [error] 11275#0: *3 live: already publishing, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 21:25:26 [error] 11275#0: *4 open() "./nginx_conf/../rtmp/www/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/stat"
+2021/03/25 21:25:37 [info] 11275#0: *6 client connected '192.168.0.111'
+2021/03/25 21:25:37 [info] 11275#0: *6 connect: app='myapp' args='' flashver='' swf_url='' tc_url='rtmp://192.168.0.111/myapp' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 21:25:37 [info] 11275#0: *6 createStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 21:25:37 [info] 11275#0: *6 publish: name='' args='' type=live silent=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 21:25:37 [error] 11275#0: *6 live: already publishing, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 21:26:25 [info] 11275#0: *5 client timed out (110: Unknown error) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2021/03/25 21:31:34 [info] 11275#0: *7 client connected '192.168.0.111'
+2021/03/25 21:31:34 [info] 11275#0: *7 connect: app='myapp' args='' flashver='' swf_url='' tc_url='rtmp://192.168.0.111/myapp' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 21:31:34 [info] 11275#0: *7 createStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 21:31:34 [info] 11275#0: *7 publish: name='' args='' type=live silent=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 21:31:34 [error] 11275#0: *7 live: already publishing, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 21:31:43 [info] 11275#0: *2 disconnect, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 21:31:43 [info] 11275#0: *2 deleteStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 21:31:43 [info] 11275#0: *3 disconnect, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 21:31:43 [info] 11275#0: *3 deleteStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 21:31:43 [info] 11275#0: *6 disconnect, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 21:31:43 [info] 11275#0: *6 deleteStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 21:31:43 [info] 11275#0: *7 disconnect, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 21:31:43 [info] 11275#0: *7 deleteStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 21:48:09 [info] 11275#0: *8 client connected '192.168.0.111'
+2021/03/25 21:48:09 [info] 11275#0: *8 connect: app='myapp' args='' flashver='' swf_url='' tc_url='rtmp://192.168.0.111/myapp' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 21:48:09 [info] 11275#0: *8 createStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 21:48:09 [info] 11275#0: *8 publish: name='' args='' type=live silent=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 21:48:10 [info] 11275#0: *8 disconnect, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 21:48:10 [info] 11275#0: *8 deleteStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 21:49:08 [info] 11275#0: *9 client connected '192.168.0.111'
+2021/03/25 21:49:08 [info] 11275#0: *9 connect: app='myapp' args='' flashver='' swf_url='' tc_url='rtmp://192.168.0.111/myapp' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 21:49:08 [info] 11275#0: *9 createStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 21:49:08 [info] 11275#0: *9 publish: name='' args='' type=live silent=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 21:53:10 [info] 11275#0: *9 disconnect, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 21:53:10 [info] 11275#0: *9 deleteStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 21:53:17 [info] 11275#0: *10 client connected '192.168.0.111'
+2021/03/25 21:53:17 [info] 11275#0: *10 connect: app='myapp' args='' flashver='' swf_url='' tc_url='rtmp://192.168.0.111/myapp' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 21:53:17 [info] 11275#0: *10 createStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 21:53:17 [info] 11275#0: *10 publish: name='' args='' type=live silent=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 21:53:18 [info] 11275#0: *10 disconnect, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 21:53:18 [info] 11275#0: *10 deleteStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 21:58:36 [info] 11275#0: *11 client connected '192.168.0.111'
+2021/03/25 21:58:37 [info] 11275#0: *11 connect: app='myapp' args='' flashver='' swf_url='' tc_url='rtmp://192.168.0.111/myapp' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 21:58:37 [info] 11275#0: *11 createStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 21:58:37 [info] 11275#0: *11 publish: name='' args='' type=live silent=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 21:58:39 [info] 11275#0: *11 disconnect, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 21:58:39 [info] 11275#0: *11 deleteStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 21:59:52 [info] 11275#0: *12 client connected '192.168.0.101'
+2021/03/25 21:59:52 [info] 11275#0: *12 connect: app='myapp' args='' flashver='' swf_url='' tc_url='rtmp://192.168.0.111/myapp' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.0.101, server: 0.0.0.0:1935
+2021/03/25 21:59:52 [info] 11275#0: *12 createStream, client: 192.168.0.101, server: 0.0.0.0:1935
+2021/03/25 21:59:52 [info] 11275#0: *12 publish: name='' args='' type=live silent=0, client: 192.168.0.101, server: 0.0.0.0:1935
+2021/03/25 22:00:16 [info] 11275#0: *15 client connected '127.0.0.1'
+2021/03/25 22:00:16 [info] 11275#0: *15 connect: app='myapp' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://localhost:1935/myapp' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 22:00:16 [info] 11275#0: *15 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 22:00:16 [info] 11275#0: *15 play: name='' args='' start=-2000 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 22:01:05 [info] 11275#0: *14 client timed out (110: Unknown error) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2021/03/25 22:01:54 [info] 11275#0: *15 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 22:01:54 [info] 11275#0: *15 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 22:02:07 [info] 11275#0: *16 client timed out (110: Unknown error) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2021/03/25 22:02:34 [info] 11275#0: *18 client connected '127.0.0.1'
+2021/03/25 22:02:34 [info] 11275#0: *18 connect: app='myapp' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://localhost:1935/myapp' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 22:02:34 [info] 11275#0: *18 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 22:02:34 [info] 11275#0: *18 play: name='' args='' start=-2000 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 22:02:44 [info] 11275#0: *18 recv() failed (104: Unknown error), client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 22:02:44 [info] 11275#0: *18 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 22:02:44 [info] 11275#0: *18 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 22:03:16 [info] 11275#0: *17 client timed out (110: Unknown error) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2021/03/25 22:03:19 [info] 11275#0: *12 deleteStream, client: 192.168.0.101, server: 0.0.0.0:1935
+2021/03/25 22:03:19 [info] 11275#0: *12 disconnect, client: 192.168.0.101, server: 0.0.0.0:1935
+2021/03/25 22:03:19 [info] 11275#0: *12 deleteStream, client: 192.168.0.101, server: 0.0.0.0:1935
+2021/03/25 22:03:23 [info] 11275#0: *19 client connected '127.0.0.1'
+2021/03/25 22:03:23 [info] 11275#0: *19 connect: app='myapp' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://localhost:1935/myapp' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 22:03:23 [info] 11275#0: *19 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 22:03:23 [info] 11275#0: *19 play: name='' args='' start=-2000 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 22:03:33 [info] 11275#0: *22 client connected '192.168.0.101'
+2021/03/25 22:03:33 [info] 11275#0: *22 connect: app='myapp' args='' flashver='' swf_url='' tc_url='rtmp://192.168.0.111/myapp' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.0.101, server: 0.0.0.0:1935
+2021/03/25 22:03:33 [info] 11275#0: *22 createStream, client: 192.168.0.101, server: 0.0.0.0:1935
+2021/03/25 22:03:33 [info] 11275#0: *22 publish: name='' args='' type=live silent=0, client: 192.168.0.101, server: 0.0.0.0:1935
+2021/03/25 22:03:34 [info] 11275#0: *19 recv() failed (104: Unknown error), client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 22:03:34 [info] 11275#0: *19 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 22:03:34 [info] 11275#0: *19 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 22:03:50 [info] 11275#0: *23 client connected '127.0.0.1'
+2021/03/25 22:03:50 [info] 11275#0: *23 connect: app='myapp' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://localhost:1935/myapp' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 22:03:50 [info] 11275#0: *23 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 22:03:50 [info] 11275#0: *23 play: name='' args='' start=-2000 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 22:04:30 [info] 11275#0: *21 client timed out (110: Unknown error) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2021/03/25 22:06:10 [info] 11275#0: *23 recv() failed (104: Unknown error), client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 22:06:10 [info] 11275#0: *23 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 22:06:10 [info] 11275#0: *23 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 22:06:12 [info] 11275#0: *22 deleteStream, client: 192.168.0.101, server: 0.0.0.0:1935
+2021/03/25 22:06:12 [info] 11275#0: *22 disconnect, client: 192.168.0.101, server: 0.0.0.0:1935
+2021/03/25 22:06:12 [info] 11275#0: *22 deleteStream, client: 192.168.0.101, server: 0.0.0.0:1935
+2021/03/25 22:07:04 [info] 11275#0: *24 client connected '192.168.0.111'
+2021/03/25 22:07:04 [info] 11275#0: *24 connect: app='myapp' args='' flashver='' swf_url='' tc_url='rtmp://192.168.0.111/myapp' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 22:07:04 [info] 11275#0: *24 createStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 22:07:04 [info] 11275#0: *24 publish: name='' args='' type=live silent=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 22:07:05 [info] 11275#0: *24 disconnect, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 22:07:05 [info] 11275#0: *24 deleteStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 22:10:09 [info] 11275#0: *25 client connected '127.0.0.1'
+2021/03/25 22:10:09 [info] 11275#0: *25 connect: app='myapp' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://localhost:1935/myapp' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 22:10:09 [info] 11275#0: *25 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 22:10:09 [info] 11275#0: *25 play: name='' args='' start=-2000 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 22:10:19 [info] 11275#0: *26 client connected '192.168.0.101'
+2021/03/25 22:10:19 [info] 11275#0: *26 connect: app='myapp' args='' flashver='' swf_url='' tc_url='rtmp://192.168.0.111/myapp' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.0.101, server: 0.0.0.0:1935
+2021/03/25 22:10:19 [info] 11275#0: *26 createStream, client: 192.168.0.101, server: 0.0.0.0:1935
+2021/03/25 22:10:19 [info] 11275#0: *26 publish: name='' args='' type=live silent=0, client: 192.168.0.101, server: 0.0.0.0:1935
+2021/03/25 22:11:26 [info] 11275#0: *28 client timed out (110: Unknown error) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2021/03/25 22:11:28 [info] 11275#0: *26 disconnect, client: 192.168.0.101, server: 0.0.0.0:1935
+2021/03/25 22:11:28 [info] 11275#0: *26 deleteStream, client: 192.168.0.101, server: 0.0.0.0:1935
+2021/03/25 22:11:35 [info] 11275#0: *25 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 22:11:35 [info] 11275#0: *25 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 22:11:38 [info] 11275#0: *29 client connected '127.0.0.1'
+2021/03/25 22:11:38 [info] 11275#0: *29 connect: app='myapp' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://localhost:1935/myapp' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 22:11:38 [info] 11275#0: *29 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 22:11:38 [info] 11275#0: *29 play: name='' args='' start=-2000 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 22:11:43 [info] 11275#0: *30 client connected '192.168.0.101'
+2021/03/25 22:11:43 [info] 11275#0: *30 connect: app='myapp' args='' flashver='' swf_url='' tc_url='rtmp://192.168.0.111/myapp' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.0.101, server: 0.0.0.0:1935
+2021/03/25 22:11:43 [info] 11275#0: *30 createStream, client: 192.168.0.101, server: 0.0.0.0:1935
+2021/03/25 22:11:43 [info] 11275#0: *30 publish: name='' args='' type=live silent=0, client: 192.168.0.101, server: 0.0.0.0:1935
+2021/03/25 22:12:50 [info] 11275#0: *31 client timed out (110: Unknown error) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2021/03/25 22:13:02 [info] 11275#0: *30 disconnect, client: 192.168.0.101, server: 0.0.0.0:1935
+2021/03/25 22:13:02 [info] 11275#0: *30 deleteStream, client: 192.168.0.101, server: 0.0.0.0:1935
+2021/03/25 22:13:10 [info] 11275#0: *29 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 22:13:10 [info] 11275#0: *29 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 22:13:20 [info] 11275#0: *32 client connected '127.0.0.1'
+2021/03/25 22:13:20 [info] 11275#0: *32 connect: app='myapp' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://localhost:1935/myapp' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 22:13:20 [info] 11275#0: *32 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 22:13:20 [info] 11275#0: *32 play: name='' args='' start=-2000 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 22:13:25 [info] 11275#0: *33 client connected '192.168.0.101'
+2021/03/25 22:13:25 [info] 11275#0: *33 connect: app='myapp' args='' flashver='' swf_url='' tc_url='rtmp://192.168.0.111/myapp' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.0.101, server: 0.0.0.0:1935
+2021/03/25 22:13:25 [info] 11275#0: *33 createStream, client: 192.168.0.101, server: 0.0.0.0:1935
+2021/03/25 22:13:25 [info] 11275#0: *33 publish: name='' args='' type=live silent=0, client: 192.168.0.101, server: 0.0.0.0:1935
+2021/03/25 22:14:21 [info] 11275#0: *32 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 22:14:21 [info] 11275#0: *32 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 22:14:31 [info] 11275#0: *35 client timed out (110: Unknown error) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2021/03/25 22:14:49 [info] 11275#0: *36 client connected '127.0.0.1'
+2021/03/25 22:14:49 [info] 11275#0: *36 connect: app='myapp' args='' flashver='' swf_url='' tc_url='rtmp://localhost/myapp' page_url='' acodecs=3191 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 22:14:49 [info] 11275#0: *36 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 22:14:49 [info] 11275#0: *36 play: name='' args='' start=0 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 22:16:23 [info] 11275#0: *36 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 22:16:23 [info] 11275#0: *36 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 22:16:23 [info] 11275#0: *36 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 22:16:47 [info] 11275#0: *37 client connected '127.0.0.1'
+2021/03/25 22:16:47 [info] 11275#0: *37 connect: app='myapp' args='' flashver='' swf_url='' tc_url='rtmp://localhost/myapp' page_url='' acodecs=3191 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 22:16:47 [info] 11275#0: *37 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 22:16:47 [info] 11275#0: *37 play: name='' args='' start=0 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 22:16:49 [info] 11275#0: *38 client connected '192.168.0.101'
+2021/03/25 22:16:49 [info] 11275#0: *38 connect: app='myapp' args='' flashver='' swf_url='' tc_url='rtmp://192.168.0.111/myapp' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.0.101, server: 0.0.0.0:1935
+2021/03/25 22:16:49 [info] 11275#0: *38 createStream, client: 192.168.0.101, server: 0.0.0.0:1935
+2021/03/25 22:16:49 [info] 11275#0: *38 publish: name='' args='' type=live silent=0, client: 192.168.0.101, server: 0.0.0.0:1935
+2021/03/25 22:16:49 [error] 11275#0: *38 live: already publishing, client: 192.168.0.101, server: 0.0.0.0:1935
+2021/03/25 22:17:17 [info] 11275#0: *37 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 22:17:17 [info] 11275#0: *37 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 22:17:17 [info] 11275#0: *37 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 22:17:19 [info] 11275#0: *41 client connected '192.168.0.101'
+2021/03/25 22:17:19 [info] 11275#0: *41 connect: app='myapp' args='' flashver='' swf_url='' tc_url='rtmp://192.168.0.111/myapp' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.0.101, server: 0.0.0.0:1935
+2021/03/25 22:17:20 [info] 11275#0: *41 createStream, client: 192.168.0.101, server: 0.0.0.0:1935
+2021/03/25 22:17:20 [info] 11275#0: *41 publish: name='' args='' type=live silent=0, client: 192.168.0.101, server: 0.0.0.0:1935
+2021/03/25 22:17:20 [error] 11275#0: *41 live: already publishing, client: 192.168.0.101, server: 0.0.0.0:1935
+2021/03/25 22:17:47 [notice] 11275#0: signal 15 (SIGTERM) received from 18981, exiting
+2021/03/25 22:17:47 [notice] 11274#0: signal 15 (SIGTERM) received from 18981, exiting
+2021/03/25 22:17:47 [info] 11275#0: epoll_wait() failed (4: Interrupted system call)
+2021/03/25 22:17:47 [notice] 11275#0: exiting
+2021/03/25 22:17:47 [notice] 11275#0: exit
+2021/03/25 22:17:47 [notice] 11274#0: signal 17 (SIGCHLD) received from 11275
+2021/03/25 22:17:47 [notice] 11274#0: worker process 11275 exited with code 0
+2021/03/25 22:17:47 [notice] 11274#0: exit
+2021/03/25 22:17:49 [notice] 18986#0: using the "epoll" event method
+2021/03/25 22:17:49 [notice] 18986#0: nginx/1.18.0
+2021/03/25 22:17:49 [notice] 18986#0: built by gcc 10.2.0 (GCC) 
+2021/03/25 22:17:49 [notice] 18986#0: OS: Linux 5.4.105-1-MANJARO
+2021/03/25 22:17:49 [notice] 18986#0: getrlimit(RLIMIT_NOFILE): 1024:524288
+2021/03/25 22:17:49 [notice] 18987#0: start worker processes
+2021/03/25 22:17:49 [notice] 18987#0: start worker process 18988
+2021/03/25 22:18:00 [info] 18988#0: *1 client connected '127.0.0.1'
+2021/03/25 22:18:00 [info] 18988#0: *1 connect: app='myapp' args='' flashver='' swf_url='' tc_url='rtmp://localhost/myapp' page_url='' acodecs=3191 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 22:18:00 [info] 18988#0: *1 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 22:18:00 [info] 18988#0: *1 play: name='' args='' start=0 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 22:18:13 [info] 18988#0: *2 client connected '192.168.0.101'
+2021/03/25 22:18:13 [info] 18988#0: *2 connect: app='myapp' args='' flashver='' swf_url='' tc_url='rtmp://192.168.0.111/myapp' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.0.101, server: 0.0.0.0:1935
+2021/03/25 22:18:13 [info] 18988#0: *2 createStream, client: 192.168.0.101, server: 0.0.0.0:1935
+2021/03/25 22:18:13 [info] 18988#0: *2 publish: name='' args='' type=live silent=0, client: 192.168.0.101, server: 0.0.0.0:1935
+2021/03/25 22:18:52 [info] 18988#0: *1 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 22:18:52 [info] 18988#0: *1 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 22:18:52 [info] 18988#0: *1 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 22:18:59 [info] 18988#0: *2 disconnect, client: 192.168.0.101, server: 0.0.0.0:1935
+2021/03/25 22:18:59 [info] 18988#0: *2 deleteStream, client: 192.168.0.101, server: 0.0.0.0:1935
+2021/03/25 22:19:17 [info] 18988#0: *4 client timed out (110: Unknown error) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2021/03/25 22:27:22 [info] 18988#0: *5 client connected '192.168.0.111'
+2021/03/25 22:27:22 [info] 18988#0: *5 connect: app='myapp' args='' flashver='' swf_url='' tc_url='rtmp://192.168.0.111/myapp' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 22:27:22 [info] 18988#0: *5 createStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 22:27:22 [info] 18988#0: *5 publish: name='' args='' type=live silent=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 22:27:23 [info] 18988#0: *5 disconnect, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 22:27:23 [info] 18988#0: *5 deleteStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 22:27:35 [info] 18988#0: *6 client connected '127.0.0.1'
+2021/03/25 22:27:35 [info] 18988#0: *6 connect: app='myapp' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://localhost:1935/myapp' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 22:27:35 [info] 18988#0: *6 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 22:27:35 [info] 18988#0: *6 play: name='' args='' start=-2000 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 22:27:41 [info] 18988#0: *7 client connected '192.168.0.101'
+2021/03/25 22:27:41 [info] 18988#0: *7 connect: app='myapp' args='' flashver='' swf_url='' tc_url='rtmp://192.168.0.111/myapp' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.0.101, server: 0.0.0.0:1935
+2021/03/25 22:27:41 [info] 18988#0: *7 createStream, client: 192.168.0.101, server: 0.0.0.0:1935
+2021/03/25 22:27:41 [info] 18988#0: *7 publish: name='' args='' type=live silent=0, client: 192.168.0.101, server: 0.0.0.0:1935
+2021/03/25 22:28:22 [info] 18988#0: *7 deleteStream, client: 192.168.0.101, server: 0.0.0.0:1935
+2021/03/25 22:28:22 [info] 18988#0: *7 disconnect, client: 192.168.0.101, server: 0.0.0.0:1935
+2021/03/25 22:28:22 [info] 18988#0: *7 deleteStream, client: 192.168.0.101, server: 0.0.0.0:1935
+2021/03/25 22:28:38 [info] 18988#0: *6 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 22:28:38 [info] 18988#0: *6 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 22:28:47 [info] 18988#0: *9 client timed out (110: Unknown error) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2021/03/25 23:11:13 [info] 18988#0: *10 client connected '192.168.0.111'
+2021/03/25 23:11:13 [info] 18988#0: *10 connect: app='myapp' args='' flashver='' swf_url='' tc_url='rtmp://192.168.0.111/myapp' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 23:11:13 [info] 18988#0: *10 createStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 23:11:13 [info] 18988#0: *10 publish: name='' args='' type=live silent=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 23:11:13 [info] 18988#0: *10 disconnect, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 23:11:13 [info] 18988#0: *10 deleteStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 23:11:22 [info] 18988#0: *11 client connected '192.168.0.111'
+2021/03/25 23:11:22 [info] 18988#0: *11 connect: app='myapp' args='' flashver='' swf_url='' tc_url='rtmp://192.168.0.111/myapp' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 23:11:22 [info] 18988#0: *11 createStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 23:11:22 [info] 18988#0: *11 publish: name='' args='' type=live silent=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 23:11:23 [info] 18988#0: *11 disconnect, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 23:11:23 [info] 18988#0: *11 deleteStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 23:12:53 [info] 18988#0: *12 client connected '127.0.0.1'
+2021/03/25 23:12:53 [info] 18988#0: *12 connect: app='myapp' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://localhost:1935/myapp' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 23:12:53 [info] 18988#0: *12 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 23:12:53 [info] 18988#0: *12 play: name='' args='' start=-2000 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 23:13:03 [info] 18988#0: *13 client connected '192.168.0.101'
+2021/03/25 23:13:03 [info] 18988#0: *13 connect: app='myapp' args='' flashver='' swf_url='' tc_url='rtmp://192.168.0.111/myapp' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.0.101, server: 0.0.0.0:1935
+2021/03/25 23:13:03 [info] 18988#0: *13 createStream, client: 192.168.0.101, server: 0.0.0.0:1935
+2021/03/25 23:13:03 [info] 18988#0: *13 publish: name='' args='' type=live silent=0, client: 192.168.0.101, server: 0.0.0.0:1935
+2021/03/25 23:13:23 [info] 18988#0: *12 recv() failed (104: Unknown error), client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 23:13:23 [info] 18988#0: *12 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 23:13:23 [info] 18988#0: *12 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 23:13:27 [info] 18988#0: *13 disconnect, client: 192.168.0.101, server: 0.0.0.0:1935
+2021/03/25 23:13:27 [info] 18988#0: *13 deleteStream, client: 192.168.0.101, server: 0.0.0.0:1935
+2021/03/25 23:14:10 [info] 18988#0: *15 client timed out (110: Unknown error) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2021/03/25 23:15:16 [info] 18988#0: *16 client connected '192.168.0.111'
+2021/03/25 23:15:16 [info] 18988#0: *16 connect: app='myapp' args='' flashver='' swf_url='' tc_url='rtmp://192.168.0.111/myapp' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 23:15:16 [info] 18988#0: *16 createStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 23:15:16 [info] 18988#0: *16 publish: name='' args='' type=live silent=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 23:15:17 [info] 18988#0: *16 disconnect, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 23:15:17 [info] 18988#0: *16 deleteStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 23:16:50 [info] 18988#0: *17 client connected '192.168.0.111'
+2021/03/25 23:16:50 [info] 18988#0: *17 connect: app='myapp' args='' flashver='' swf_url='' tc_url='rtmp://192.168.0.111/myapp' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 23:16:50 [info] 18988#0: *17 createStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 23:16:50 [info] 18988#0: *17 publish: name='' args='' type=live silent=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 23:16:50 [info] 18988#0: *17 disconnect, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 23:16:50 [info] 18988#0: *17 deleteStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 23:18:26 [info] 18988#0: *18 client connected '192.168.0.111'
+2021/03/25 23:18:26 [info] 18988#0: *18 connect: app='myapp' args='' flashver='' swf_url='' tc_url='rtmp://192.168.0.111/myapp' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 23:18:26 [info] 18988#0: *18 createStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 23:18:26 [info] 18988#0: *18 publish: name='' args='' type=live silent=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 23:18:27 [info] 18988#0: *18 disconnect, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 23:18:27 [info] 18988#0: *18 deleteStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 23:20:30 [info] 18988#0: *19 client connected '192.168.0.111'
+2021/03/25 23:20:30 [info] 18988#0: *19 connect: app='myapp' args='' flashver='' swf_url='' tc_url='rtmp://192.168.0.111/myapp' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 23:20:30 [info] 18988#0: *19 createStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 23:20:30 [info] 18988#0: *19 publish: name='' args='' type=live silent=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 23:24:49 [info] 18988#0: *19 disconnect, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 23:24:49 [info] 18988#0: *19 deleteStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 23:25:20 [info] 18988#0: *20 client connected '192.168.0.111'
+2021/03/25 23:25:20 [info] 18988#0: *20 connect: app='myapp' args='' flashver='' swf_url='' tc_url='rtmp://192.168.0.111/myapp' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 23:25:20 [info] 18988#0: *20 createStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 23:25:20 [info] 18988#0: *20 publish: name='' args='' type=live silent=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 23:25:20 [info] 18988#0: *20 disconnect, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 23:25:20 [info] 18988#0: *20 deleteStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 23:29:07 [info] 18988#0: *21 client connected '192.168.0.111'
+2021/03/25 23:29:07 [info] 18988#0: *21 connect: app='myapp' args='' flashver='' swf_url='' tc_url='rtmp://192.168.0.111/myapp' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 23:29:07 [info] 18988#0: *21 createStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 23:29:07 [info] 18988#0: *21 publish: name='' args='' type=live silent=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 23:29:08 [info] 18988#0: *21 disconnect, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 23:29:08 [info] 18988#0: *21 deleteStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 23:30:13 [info] 18988#0: *22 client connected '192.168.0.111'
+2021/03/25 23:30:13 [info] 18988#0: *22 connect: app='myapp' args='' flashver='' swf_url='' tc_url='rtmp://192.168.0.111/myapp' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 23:30:13 [info] 18988#0: *22 createStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 23:30:13 [info] 18988#0: *22 publish: name='' args='' type=live silent=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 23:30:14 [info] 18988#0: *22 disconnect, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 23:30:14 [info] 18988#0: *22 deleteStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 23:31:14 [info] 18988#0: *23 client connected '192.168.0.111'
+2021/03/25 23:31:14 [info] 18988#0: *23 connect: app='myapp' args='' flashver='' swf_url='' tc_url='rtmp://192.168.0.111/myapp' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 23:31:14 [info] 18988#0: *23 createStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 23:31:14 [info] 18988#0: *23 publish: name='' args='' type=live silent=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 23:31:15 [info] 18988#0: *23 disconnect, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 23:31:15 [info] 18988#0: *23 deleteStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/25 23:32:15 [info] 18988#0: *24 client connected '192.168.0.101'
+2021/03/25 23:32:15 [info] 18988#0: *24 connect: app='myapp' args='' flashver='' swf_url='' tc_url='rtmp://192.168.0.111/myapp' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.0.101, server: 0.0.0.0:1935
+2021/03/25 23:32:15 [info] 18988#0: *24 createStream, client: 192.168.0.101, server: 0.0.0.0:1935
+2021/03/25 23:32:15 [info] 18988#0: *24 publish: name='' args='' type=live silent=0, client: 192.168.0.101, server: 0.0.0.0:1935
+2021/03/25 23:32:24 [info] 18988#0: *25 client connected '127.0.0.1'
+2021/03/25 23:32:24 [info] 18988#0: *25 connect: app='myapp' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://localhost:1935/myapp' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 23:32:24 [info] 18988#0: *25 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 23:32:24 [info] 18988#0: *25 play: name='' args='' start=-2000 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 23:32:54 [info] 18988#0: *25 recv() failed (104: Unknown error), client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 23:32:54 [info] 18988#0: *25 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 23:32:54 [info] 18988#0: *25 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 23:34:30 [info] 18988#0: *24 disconnect, client: 192.168.0.101, server: 0.0.0.0:1935
+2021/03/25 23:34:30 [info] 18988#0: *24 deleteStream, client: 192.168.0.101, server: 0.0.0.0:1935
+2021/03/25 23:34:34 [info] 18988#0: *26 client connected '127.0.0.1'
+2021/03/25 23:34:34 [info] 18988#0: *26 connect: app='myapp' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://localhost:1935/myapp' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 23:34:34 [info] 18988#0: *26 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 23:34:34 [info] 18988#0: *26 play: name='' args='' start=-2000 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 23:35:41 [info] 18988#0: *27 client connected '192.168.0.101'
+2021/03/25 23:35:41 [info] 18988#0: *27 connect: app='myapp' args='' flashver='' swf_url='' tc_url='rtmp://192.168.0.111/myapp' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.0.101, server: 0.0.0.0:1935
+2021/03/25 23:35:41 [info] 18988#0: *27 createStream, client: 192.168.0.101, server: 0.0.0.0:1935
+2021/03/25 23:35:41 [info] 18988#0: *27 publish: name='' args='' type=live silent=0, client: 192.168.0.101, server: 0.0.0.0:1935
+2021/03/25 23:35:44 [info] 18988#0: *27 disconnect, client: 192.168.0.101, server: 0.0.0.0:1935
+2021/03/25 23:35:44 [info] 18988#0: *27 deleteStream, client: 192.168.0.101, server: 0.0.0.0:1935
+2021/03/25 23:37:04 [info] 18988#0: *28 client connected '192.168.0.101'
+2021/03/25 23:37:04 [info] 18988#0: *28 connect: app='myapp' args='' flashver='' swf_url='' tc_url='rtmp://192.168.0.111/myapp' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.0.101, server: 0.0.0.0:1935
+2021/03/25 23:37:04 [info] 18988#0: *28 createStream, client: 192.168.0.101, server: 0.0.0.0:1935
+2021/03/25 23:37:04 [info] 18988#0: *28 publish: name='' args='' type=live silent=0, client: 192.168.0.101, server: 0.0.0.0:1935
+2021/03/25 23:37:06 [info] 18988#0: *28 disconnect, client: 192.168.0.101, server: 0.0.0.0:1935
+2021/03/25 23:37:06 [info] 18988#0: *28 deleteStream, client: 192.168.0.101, server: 0.0.0.0:1935
+2021/03/25 23:39:55 [info] 18988#0: *29 client connected '192.168.0.101'
+2021/03/25 23:39:55 [info] 18988#0: *29 connect: app='myapp' args='' flashver='' swf_url='' tc_url='rtmp://192.168.0.111/myapp' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.0.101, server: 0.0.0.0:1935
+2021/03/25 23:39:55 [info] 18988#0: *29 createStream, client: 192.168.0.101, server: 0.0.0.0:1935
+2021/03/25 23:39:55 [info] 18988#0: *29 publish: name='' args='' type=live silent=0, client: 192.168.0.101, server: 0.0.0.0:1935
+2021/03/25 23:40:24 [info] 18988#0: *26 recv() failed (104: Unknown error), client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 23:40:24 [info] 18988#0: *26 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 23:40:24 [info] 18988#0: *26 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 23:40:47 [info] 18988#0: *29 disconnect, client: 192.168.0.101, server: 0.0.0.0:1935
+2021/03/25 23:40:47 [info] 18988#0: *29 deleteStream, client: 192.168.0.101, server: 0.0.0.0:1935
+2021/03/25 23:40:55 [info] 18988#0: *30 client connected '192.168.0.101'
+2021/03/25 23:40:55 [info] 18988#0: *30 connect: app='myapp' args='' flashver='' swf_url='' tc_url='rtmp://192.168.0.111/myapp' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.0.101, server: 0.0.0.0:1935
+2021/03/25 23:40:55 [info] 18988#0: *30 createStream, client: 192.168.0.101, server: 0.0.0.0:1935
+2021/03/25 23:40:55 [info] 18988#0: *30 publish: name='' args='' type=live silent=0, client: 192.168.0.101, server: 0.0.0.0:1935
+2021/03/25 23:40:59 [info] 18988#0: *31 client connected '127.0.0.1'
+2021/03/25 23:40:59 [info] 18988#0: *31 connect: app='myapp' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://localhost:1935/myapp' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 23:40:59 [info] 18988#0: *31 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 23:40:59 [info] 18988#0: *31 play: name='' args='' start=-2000 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 23:41:12 [info] 18988#0: *31 recv() failed (104: Unknown error), client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 23:41:12 [info] 18988#0: *31 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 23:41:12 [info] 18988#0: *31 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 23:41:30 [info] 18988#0: *32 client connected '127.0.0.1'
+2021/03/25 23:41:30 [info] 18988#0: *32 connect: app='myapp' args='' flashver='' swf_url='' tc_url='rtmp://localhost/myapp' page_url='' acodecs=3191 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 23:41:30 [info] 18988#0: *32 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 23:41:30 [info] 18988#0: *32 play: name='' args='' start=0 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 23:42:10 [info] 18988#0: *32 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 23:42:10 [info] 18988#0: *32 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 23:42:10 [info] 18988#0: *32 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 23:42:41 [info] 18988#0: *33 client connected '127.0.0.1'
+2021/03/25 23:42:41 [info] 18988#0: *33 connect: app='myapp' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://localhost:1935/myapp' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 23:42:41 [info] 18988#0: *33 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 23:42:41 [info] 18988#0: *33 play: name='' args='' start=-2000 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 23:42:46 [info] 18988#0: *34 client connected '192.168.0.101'
+2021/03/25 23:42:46 [info] 18988#0: *34 connect: app='myapp' args='' flashver='' swf_url='' tc_url='rtmp://192.168.0.111/myapp' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.0.101, server: 0.0.0.0:1935
+2021/03/25 23:42:46 [info] 18988#0: *34 createStream, client: 192.168.0.101, server: 0.0.0.0:1935
+2021/03/25 23:42:46 [info] 18988#0: *34 publish: name='' args='' type=live silent=0, client: 192.168.0.101, server: 0.0.0.0:1935
+2021/03/25 23:42:46 [error] 18988#0: *34 live: already publishing, client: 192.168.0.101, server: 0.0.0.0:1935
+2021/03/25 23:43:09 [notice] 18987#0: signal 15 (SIGTERM) received from 34258, exiting
+2021/03/25 23:43:09 [notice] 18988#0: signal 15 (SIGTERM) received from 34258, exiting
+2021/03/25 23:43:09 [info] 18988#0: epoll_wait() failed (4: Interrupted system call)
+2021/03/25 23:43:09 [notice] 18988#0: exiting
+2021/03/25 23:43:09 [notice] 18988#0: exit
+2021/03/25 23:43:09 [notice] 18987#0: signal 17 (SIGCHLD) received from 18988
+2021/03/25 23:43:09 [notice] 18987#0: worker process 18988 exited with code 0
+2021/03/25 23:43:09 [notice] 18987#0: exit
+2021/03/25 23:43:20 [notice] 34271#0: using the "epoll" event method
+2021/03/25 23:43:20 [notice] 34271#0: nginx/1.18.0
+2021/03/25 23:43:20 [notice] 34271#0: built by gcc 10.2.0 (GCC) 
+2021/03/25 23:43:20 [notice] 34271#0: OS: Linux 5.4.105-1-MANJARO
+2021/03/25 23:43:20 [notice] 34271#0: getrlimit(RLIMIT_NOFILE): 1024:524288
+2021/03/25 23:43:20 [notice] 34272#0: start worker processes
+2021/03/25 23:43:20 [notice] 34272#0: start worker process 34273
+2021/03/25 23:43:25 [notice] 34272#0: signal 15 (SIGTERM) received from 34286, exiting
+2021/03/25 23:43:25 [notice] 34273#0: signal 15 (SIGTERM) received from 34286, exiting
+2021/03/25 23:43:25 [info] 34273#0: epoll_wait() failed (4: Interrupted system call)
+2021/03/25 23:43:25 [notice] 34273#0: exiting
+2021/03/25 23:43:25 [notice] 34273#0: exit
+2021/03/25 23:43:25 [notice] 34272#0: signal 17 (SIGCHLD) received from 34273
+2021/03/25 23:43:25 [notice] 34272#0: worker process 34273 exited with code 0
+2021/03/25 23:43:25 [notice] 34272#0: exit
+2021/03/25 23:43:26 [notice] 34291#0: using the "epoll" event method
+2021/03/25 23:43:26 [notice] 34291#0: nginx/1.18.0
+2021/03/25 23:43:26 [notice] 34291#0: built by gcc 10.2.0 (GCC) 
+2021/03/25 23:43:26 [notice] 34291#0: OS: Linux 5.4.105-1-MANJARO
+2021/03/25 23:43:26 [notice] 34291#0: getrlimit(RLIMIT_NOFILE): 1024:524288
+2021/03/25 23:43:26 [notice] 34292#0: start worker processes
+2021/03/25 23:43:26 [notice] 34292#0: start worker process 34293
+2021/03/25 23:43:28 [info] 34293#0: *1 client connected '127.0.0.1'
+2021/03/25 23:43:28 [info] 34293#0: *1 connect: app='myapp' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://localhost:1935/myapp' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 23:43:28 [info] 34293#0: *1 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 23:43:28 [info] 34293#0: *1 play: name='' args='' start=-2000 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 23:43:39 [info] 34293#0: *2 client connected '192.168.0.101'
+2021/03/25 23:43:39 [info] 34293#0: *2 connect: app='myapp' args='' flashver='' swf_url='' tc_url='rtmp://192.168.0.111/myapp' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.0.101, server: 0.0.0.0:1935
+2021/03/25 23:43:39 [info] 34293#0: *2 createStream, client: 192.168.0.101, server: 0.0.0.0:1935
+2021/03/25 23:43:39 [info] 34293#0: *2 publish: name='' args='' type=live silent=0, client: 192.168.0.101, server: 0.0.0.0:1935
+2021/03/25 23:44:05 [info] 34293#0: *1 recv() failed (104: Unknown error), client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 23:44:05 [info] 34293#0: *1 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 23:44:05 [info] 34293#0: *1 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/25 23:44:50 [info] 34293#0: *2 disconnect, client: 192.168.0.101, server: 0.0.0.0:1935
+2021/03/25 23:44:50 [info] 34293#0: *2 deleteStream, client: 192.168.0.101, server: 0.0.0.0:1935
+2021/03/26 00:06:14 [notice] 34292#0: signal 15 (SIGTERM) received from 1295, exiting
+2021/03/26 00:06:14 [notice] 34293#0: signal 15 (SIGTERM) received from 1295, exiting
+2021/03/26 00:06:14 [info] 34293#0: epoll_wait() failed (4: Interrupted system call)
+2021/03/26 00:06:14 [notice] 34293#0: exiting
+2021/03/26 00:06:14 [notice] 34293#0: exit
+2021/03/26 00:06:14 [notice] 34292#0: signal 17 (SIGCHLD) received from 34293
+2021/03/26 00:06:14 [notice] 34292#0: worker process 34293 exited with code 0
+2021/03/26 00:06:14 [notice] 34292#0: exit
+2021/03/26 19:53:57 [notice] 4041#0: using the "epoll" event method
+2021/03/26 19:53:57 [notice] 4041#0: nginx/1.18.0
+2021/03/26 19:53:57 [notice] 4041#0: built by gcc 10.2.0 (GCC) 
+2021/03/26 19:53:57 [notice] 4041#0: OS: Linux 5.4.105-1-MANJARO
+2021/03/26 19:53:57 [notice] 4041#0: getrlimit(RLIMIT_NOFILE): 1024:524288
+2021/03/26 19:53:57 [notice] 4042#0: start worker processes
+2021/03/26 19:53:57 [notice] 4042#0: start worker process 4043
+2021/03/26 19:54:02 [error] 4043#0: *1 open() "./nginx_conf/../rtmp/www/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/stat"
+2021/03/26 19:54:58 [info] 4043#0: *3 client connected '192.168.0.111'
+2021/03/26 19:54:58 [info] 4043#0: *3 connect: app='myapp' args='' flashver='' swf_url='' tc_url='rtmp://192.168.0.111/myapp' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/26 19:54:58 [info] 4043#0: *3 createStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/26 19:54:58 [info] 4043#0: *3 publish: name='' args='' type=live silent=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/26 19:55:02 [info] 4043#0: *2 client timed out (110: Unknown error) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2021/03/26 19:57:38 [info] 4043#0: *3 disconnect, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/26 19:57:38 [info] 4043#0: *3 deleteStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/26 20:01:22 [info] 4043#0: *4 client connected '192.168.0.111'
+2021/03/26 20:01:22 [info] 4043#0: *4 connect: app='myapp' args='' flashver='' swf_url='' tc_url='rtmp://192.168.0.111/myapp' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/26 20:01:22 [info] 4043#0: *4 createStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/26 20:01:22 [info] 4043#0: *4 publish: name='' args='' type=live silent=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/26 20:05:05 [info] 4043#0: *4 disconnect, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/26 20:05:05 [info] 4043#0: *4 deleteStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/26 20:05:54 [info] 4043#0: *5 client connected '192.168.0.111'
+2021/03/26 20:05:54 [info] 4043#0: *5 connect: app='myapp' args='' flashver='' swf_url='' tc_url='rtmp://192.168.0.111/myapp' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/26 20:05:54 [info] 4043#0: *5 createStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/26 20:05:54 [info] 4043#0: *5 publish: name='' args='' type=live silent=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/26 21:01:27 [info] 4043#0: *5 disconnect, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/26 21:01:27 [info] 4043#0: *5 deleteStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/26 21:01:41 [info] 4043#0: *6 client connected '192.168.0.111'
+2021/03/26 21:01:41 [info] 4043#0: *6 connect: app='myapp' args='' flashver='' swf_url='' tc_url='rtmp://192.168.0.111/myapp' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/26 21:01:41 [info] 4043#0: *6 createStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/26 21:01:41 [info] 4043#0: *6 publish: name='' args='' type=live silent=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/26 21:02:04 [info] 4043#0: *9 client connected '127.0.0.1'
+2021/03/26 21:02:04 [info] 4043#0: *9 connect: app='myapp' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://localhost:1935/myapp' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/26 21:02:04 [info] 4043#0: *9 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/26 21:02:04 [info] 4043#0: *9 play: name='' args='' start=-2000 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/26 21:02:13 [info] 4043#0: *9 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/26 21:02:13 [info] 4043#0: *9 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/26 21:02:51 [info] 4043#0: *6 disconnect, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/26 21:02:51 [info] 4043#0: *6 deleteStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/26 21:02:57 [info] 4043#0: *8 client timed out (110: Unknown error) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2021/03/26 21:04:29 [info] 4043#0: *10 client connected '127.0.0.1'
+2021/03/26 21:04:29 [info] 4043#0: *10 connect: app='myapp' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://localhost:1935/myapp' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/26 21:04:29 [info] 4043#0: *10 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/26 21:04:29 [info] 4043#0: *10 play: name='' args='' start=-2000 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/26 21:04:44 [info] 4043#0: *11 client connected '192.168.0.100'
+2021/03/26 21:04:44 [info] 4043#0: *11 connect: app='myapp' args='' flashver='' swf_url='' tc_url='rtmp://192.168.0.111/myapp' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.0.100, server: 0.0.0.0:1935
+2021/03/26 21:04:44 [info] 4043#0: *11 createStream, client: 192.168.0.100, server: 0.0.0.0:1935
+2021/03/26 21:04:44 [info] 4043#0: *11 publish: name='' args='' type=live silent=0, client: 192.168.0.100, server: 0.0.0.0:1935
+2021/03/26 21:08:49 [info] 4043#0: *10 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/26 21:08:49 [info] 4043#0: *10 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/26 21:09:44 [info] 4043#0: *11 recv() failed (104: Unknown error), client: 192.168.0.100, server: 0.0.0.0:1935
+2021/03/26 21:09:44 [info] 4043#0: *11 disconnect, client: 192.168.0.100, server: 0.0.0.0:1935
+2021/03/26 21:09:44 [info] 4043#0: *11 deleteStream, client: 192.168.0.100, server: 0.0.0.0:1935
+2021/03/26 21:10:22 [info] 4043#0: *12 client connected '192.168.0.111'
+2021/03/26 21:10:22 [info] 4043#0: *12 connect: app='myapp' args='' flashver='' swf_url='' tc_url='rtmp://192.168.0.111/myapp' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/26 21:10:22 [info] 4043#0: *12 createStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/26 21:10:22 [info] 4043#0: *12 publish: name='' args='' type=live silent=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/26 21:10:48 [info] 4043#0: *13 client connected '127.0.0.1'
+2021/03/26 21:10:48 [info] 4043#0: *13 connect: app='myapp' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://localhost:1935/myapp' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/26 21:10:48 [info] 4043#0: *13 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/26 21:10:48 [info] 4043#0: *13 play: name='' args='' start=-2000 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/26 21:11:05 [info] 4043#0: *13 recv() failed (104: Unknown error), client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/26 21:11:05 [info] 4043#0: *13 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/26 21:11:05 [info] 4043#0: *13 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/26 21:11:34 [info] 4043#0: *12 disconnect, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/26 21:11:34 [info] 4043#0: *12 deleteStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/26 21:14:35 [info] 4043#0: *14 client connected '192.168.0.100'
+2021/03/26 21:14:35 [info] 4043#0: *14 connect: app='myapp' args='' flashver='' swf_url='' tc_url='rtmp://192.168.0.111/myapp' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.0.100, server: 0.0.0.0:1935
+2021/03/26 21:14:35 [info] 4043#0: *14 createStream, client: 192.168.0.100, server: 0.0.0.0:1935
+2021/03/26 21:14:35 [info] 4043#0: *14 publish: name='' args='' type=live silent=0, client: 192.168.0.100, server: 0.0.0.0:1935
+2021/03/26 21:14:47 [info] 4043#0: *15 client connected '127.0.0.1'
+2021/03/26 21:14:47 [info] 4043#0: *15 connect: app='myapp' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://localhost:1935/myapp' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/26 21:14:47 [info] 4043#0: *15 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/26 21:14:47 [info] 4043#0: *15 play: name='' args='' start=-2000 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/26 21:15:39 [info] 4043#0: *14 deleteStream, client: 192.168.0.100, server: 0.0.0.0:1935
+2021/03/26 21:15:39 [info] 4043#0: *14 disconnect, client: 192.168.0.100, server: 0.0.0.0:1935
+2021/03/26 21:15:39 [info] 4043#0: *14 deleteStream, client: 192.168.0.100, server: 0.0.0.0:1935
+2021/03/26 22:17:52 [info] 4043#0: *15 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/26 22:17:52 [info] 4043#0: *15 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2021/03/27 01:30:00 [notice] 4043#0: signal 15 (SIGTERM) received from 1288, exiting
+2021/03/27 01:30:00 [notice] 4042#0: signal 15 (SIGTERM) received from 1288, exiting
+2021/03/27 01:30:00 [info] 4043#0: epoll_wait() failed (4: Interrupted system call)
+2021/03/27 01:30:00 [notice] 4043#0: exiting
+2021/03/27 01:30:00 [notice] 4043#0: exit
+2021/03/27 01:30:00 [notice] 4042#0: signal 17 (SIGCHLD) received from 4043
+2021/03/27 01:30:00 [notice] 4042#0: worker process 4043 exited with code 0
+2021/03/27 01:30:00 [notice] 4042#0: exit
+2021/03/27 09:56:32 [notice] 3570#0: using the "epoll" event method
+2021/03/27 09:56:32 [notice] 3570#0: nginx/1.18.0
+2021/03/27 09:56:32 [notice] 3570#0: built by gcc 10.2.0 (GCC) 
+2021/03/27 09:56:32 [notice] 3570#0: OS: Linux 5.4.105-1-MANJARO
+2021/03/27 09:56:32 [notice] 3570#0: getrlimit(RLIMIT_NOFILE): 1024:524288
+2021/03/27 09:56:32 [notice] 3571#0: start worker processes
+2021/03/27 09:56:32 [notice] 3571#0: start worker process 3572
+2021/03/27 10:20:31 [info] 3572#0: *1 client connected '192.168.0.111'
+2021/03/27 10:20:31 [info] 3572#0: *1 connect: app='myapp' args='' flashver='' swf_url='' tc_url='rtmp://192.168.0.111/myapp' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/27 10:20:31 [info] 3572#0: *1 createStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/27 10:20:31 [info] 3572#0: *1 publish: name='' args='' type=live silent=0, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/27 10:20:34 [info] 3572#0: *1 disconnect, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/27 10:20:34 [info] 3572#0: *1 deleteStream, client: 192.168.0.111, server: 0.0.0.0:1935
+2021/03/27 16:53:37 [error] 3572#0: *2 open() "./nginx_conf/../rtmp/www/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/stat"
+2021/03/27 16:54:37 [info] 3572#0: *3 client timed out (110: Unknown error) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2021/03/28 00:57:39 [notice] 3572#0: signal 15 (SIGTERM) received from 1320, exiting
+2021/03/28 00:57:39 [info] 3572#0: epoll_wait() failed (4: Interrupted system call)
+2021/03/28 00:57:39 [notice] 3572#0: exiting
+2021/03/28 00:57:39 [notice] 3571#0: signal 15 (SIGTERM) received from 1320, exiting
+2021/03/28 00:57:39 [notice] 3572#0: exit
+2021/03/28 00:57:39 [notice] 3571#0: signal 17 (SIGCHLD) received from 3572
+2021/03/28 00:57:39 [notice] 3571#0: worker process 3572 exited with code 0
+2021/03/28 00:57:39 [notice] 3571#0: exit
